@@ -1,0 +1,1453 @@
+invoice_id,invoice_date,department,category,vendor,amount_usd
+INV-100013,2024-10-02,marketing,events,EventMakers,7757.09
+INV-100028,2024-10-02,sales,events,EventMakers,10403.36
+INV-100049,2024-10-02,operations,facilities,CleanCo,64480.54
+INV-100055,2024-10-02,operations,utilities,NetConnect,3902.39
+INV-100041,2024-10-03,hr,benefits_admin,BenefitBridge,5571.72
+INV-100007,2024-10-05,engineering,training,LearnFast,2162.33
+INV-100029,2024-10-05,sales,events,EventMakers,4265.43
+INV-100016,2024-10-06,marketing,agencies,Story & Co,11390.03
+INV-100019,2024-10-06,marketing,software,WebAnalytix,1031.2
+INV-100003,2024-10-07,engineering,hardware,LaptopWorld,20289.58
+INV-100056,2024-10-07,operations,logistics,ParcelGo,20730.28
+INV-100001,2024-10-08,engineering,software,DevTools Inc,61338.5
+INV-100021,2024-10-08,marketing,travel,SkyTravel,3183.68
+INV-100009,2024-10-09,marketing,advertising,AdReach,38866.81
+INV-100030,2024-10-09,sales,entertainment,FineDining Group,2344.02
+INV-100044,2024-10-09,finance,software,ExpenseEasy,10863.98
+INV-100006,2024-10-11,engineering,training,CertPro,443.93
+INV-100022,2024-10-11,sales,travel,SkyTravel,5542.27
+INV-100008,2024-10-12,marketing,advertising,SearchAds Pro,20254.18
+INV-100011,2024-10-12,marketing,events,EventMakers,2609.91
+INV-100024,2024-10-13,sales,travel,RailEurope,13542.35
+INV-100052,2024-10-14,operations,utilities,NetConnect,6230.32
+INV-100015,2024-10-15,marketing,agencies,Story & Co,20939.03
+INV-100025,2024-10-15,sales,travel,SkyTravel,12753.89
+INV-100046,2024-10-15,finance,audit,Smith & Partners Audit,25536.56
+INV-100053,2024-10-15,operations,utilities,PowerGrid Energy,2414.28
+INV-100034,2024-10-17,hr,recruiting,TalentScout,3494.31
+INV-100035,2024-10-17,hr,recruiting,TalentScout,1982.93
+INV-100038,2024-10-17,hr,training,LearnFast,4064.65
+INV-100002,2024-10-18,engineering,contractors,ByteForce Consulting,75386.09
+INV-100018,2024-10-18,marketing,software,MailBlast,3357.06
+INV-100043,2024-10-18,finance,software,LedgerCloud,5283.18
+INV-100047,2024-10-18,finance,consulting,TaxWise Advisors,5113.09
+INV-100050,2024-10-18,operations,office_supplies,SupplyStore,2297.24
+INV-100027,2024-10-19,sales,software,DealRoom,8446.46
+INV-100048,2024-10-19,finance,consulting,TaxWise Advisors,4280.52
+INV-100039,2024-10-20,hr,training,LeadershipLab,5379.89
+INV-100017,2024-10-21,marketing,software,MailBlast,3426.49
+INV-100023,2024-10-21,sales,travel,CityHotels,4869.74
+INV-100031,2024-10-22,sales,entertainment,FineDining Group,1721.11
+INV-100032,2024-10-22,sales,entertainment,ClientGifts,2342.49
+INV-100045,2024-10-22,finance,audit,Smith & Partners Audit,38921.33
+INV-100054,2024-10-22,operations,utilities,PowerGrid Energy,1836.21
+INV-100004,2024-10-23,engineering,travel,CityHotels,10008.57
+INV-100005,2024-10-23,engineering,training,CertPro,2170.09
+INV-100012,2024-10-23,marketing,events,EventMakers,4616.75
+INV-100010,2024-10-24,marketing,advertising,SocialBoost,37462.88
+INV-100026,2024-10-24,sales,software,DealRoom,10801.16
+INV-100051,2024-10-24,operations,office_supplies,SupplyStore,3290.78
+INV-100014,2024-10-25,marketing,events,ExpoHall,10161.16
+INV-100020,2024-10-25,marketing,travel,SkyTravel,2700.6
+INV-100033,2024-10-25,sales,entertainment,ClientGifts,1966.23
+INV-100037,2024-10-27,hr,recruiting,TalentScout,8972.72
+INV-100040,2024-10-27,hr,software,PayrollPro,7985.42
+INV-100042,2024-10-27,hr,benefits_admin,BenefitBridge,5928.03
+INV-100036,2024-10-28,hr,recruiting,JobBoard Plus,8996.25
+INV-100060,2024-11-01,engineering,hardware,ServerParts Co,4054.85
+INV-100078,2024-11-01,sales,travel,RailEurope,7835.31
+INV-100064,2024-11-02,engineering,travel,CityHotels,2472.68
+INV-100065,2024-11-02,engineering,travel,SkyTravel,1530.15
+INV-100106,2024-11-02,operations,office_supplies,SupplyStore,1227.34
+INV-100057,2024-11-03,engineering,software,CodeHub,29439.59
+INV-100068,2024-11-03,engineering,training,LearnFast,3706.99
+INV-100085,2024-11-03,sales,events,ExpoHall,4199.78
+INV-100088,2024-11-04,hr,recruiting,TalentScout,8675.3
+INV-100073,2024-11-05,marketing,agencies,Story & Co,12040.81
+INV-100094,2024-11-06,hr,benefits_admin,BenefitBridge,9394.35
+INV-100076,2024-11-08,marketing,travel,CityHotels,1807.81
+INV-100100,2024-11-08,finance,consulting,TaxWise Advisors,3651.25
+INV-100061,2024-11-09,engineering,hardware,ServerParts Co,6335.88
+INV-100072,2024-11-09,marketing,agencies,Story & Co,20366.65
+INV-100082,2024-11-09,sales,software,DealRoom,13264.92
+INV-100097,2024-11-09,finance,software,LedgerCloud,3568.18
+INV-100103,2024-11-09,operations,facilities,CleanCo,68195.56
+INV-100104,2024-11-09,operations,office_supplies,SupplyStore,2032.32
+INV-100109,2024-11-09,operations,utilities,PowerGrid Energy,8190.99
+INV-100062,2024-11-10,engineering,hardware,ServerParts Co,6560.78
+INV-100080,2024-11-10,sales,travel,RailEurope,10295.44
+INV-100090,2024-11-10,hr,training,LeadershipLab,5460.03
+INV-100075,2024-11-12,marketing,travel,SkyTravel,3838.42
+INV-100092,2024-11-12,hr,training,LearnFast,2284.78
+INV-100102,2024-11-13,finance,consulting,TaxWise Advisors,1814.48
+INV-100095,2024-11-14,hr,benefits_admin,BenefitBridge,3644.52
+INV-100083,2024-11-16,sales,events,ExpoHall,3653.18
+INV-100087,2024-11-18,hr,recruiting,TalentScout,4887.28
+INV-100093,2024-11-18,hr,software,PayrollPro,8315.38
+INV-100066,2024-11-19,engineering,travel,CityHotels,5539.32
+INV-100069,2024-11-19,marketing,advertising,AdReach,32326.52
+INV-100070,2024-11-19,marketing,advertising,SearchAds Pro,61121.77
+INV-100071,2024-11-19,marketing,events,ExpoHall,23390.56
+INV-100105,2024-11-19,operations,office_supplies,SupplyStore,2411.61
+INV-100108,2024-11-19,operations,utilities,PowerGrid Energy,4401.74
+INV-100074,2024-11-20,marketing,software,MailBlast,8024.7
+INV-100107,2024-11-20,operations,office_supplies,SupplyStore,525.92
+INV-100112,2024-11-20,operations,logistics,ParcelGo,6016.18
+INV-100077,2024-11-21,sales,travel,RailEurope,8964.43
+INV-100101,2024-11-22,finance,consulting,TaxWise Advisors,2371.6
+INV-100111,2024-11-22,operations,logistics,ParcelGo,12573.29
+INV-100063,2024-11-23,engineering,hardware,ServerParts Co,2170.0
+INV-100089,2024-11-23,hr,recruiting,TalentScout,12241.36
+INV-100110,2024-11-23,operations,utilities,NetConnect,2183.22
+INV-100081,2024-11-24,sales,software,CRMCloud,5653.88
+INV-100096,2024-11-24,finance,software,LedgerCloud,5730.35
+INV-100059,2024-11-25,engineering,contractors,ByteForce Consulting,75601.76
+INV-100086,2024-11-25,sales,entertainment,FineDining Group,8505.78
+INV-100058,2024-11-26,engineering,software,Monitorly,27671.62
+INV-100091,2024-11-26,hr,training,LearnFast,2428.86
+INV-100098,2024-11-26,finance,software,LedgerCloud,5074.25
+INV-100099,2024-11-26,finance,consulting,TaxWise Advisors,1517.25
+INV-100079,2024-11-27,sales,travel,RailEurope,7038.7
+INV-100067,2024-11-28,engineering,training,LearnFast,1345.31
+INV-100084,2024-11-28,sales,events,EventMakers,7551.15
+INV-100131,2024-12-02,marketing,agencies,BrightCreative,24132.61
+INV-100151,2024-12-03,hr,training,LeadershipLab,2641.93
+INV-100164,2024-12-04,operations,utilities,NetConnect,11488.32
+INV-100124,2024-12-05,engineering,training,LearnFast,1138.84
+INV-100139,2024-12-05,sales,software,CRMCloud,5412.17
+INV-100149,2024-12-05,hr,training,LearnFast,2343.83
+INV-100135,2024-12-06,marketing,travel,CityHotels,1672.26
+INV-100148,2024-12-06,hr,training,LeadershipLab,1001.24
+INV-100140,2024-12-08,sales,software,DealRoom,5256.03
+INV-100157,2024-12-08,finance,software,LedgerCloud,15669.09
+INV-100153,2024-12-09,hr,software,PayrollPro,1747.27
+INV-100154,2024-12-09,hr,software,PeopleHQ,2002.42
+INV-100113,2024-12-10,engineering,software,Monitorly,62806.05
+INV-100122,2024-12-10,engineering,training,LearnFast,768.33
+INV-100162,2024-12-10,operations,office_supplies,SupplyStore,6575.7
+INV-100142,2024-12-11,sales,events,ExpoHall,15806.86
+INV-100152,2024-12-11,hr,software,PayrollPro,1449.47
+INV-100156,2024-12-12,hr,benefits_admin,BenefitBridge,12728.94
+INV-100117,2024-12-13,engineering,contractors,ByteForce Consulting,12064.52
+INV-100127,2024-12-13,marketing,advertising,SocialBoost,15847.54
+INV-100128,2024-12-13,marketing,advertising,AdReach,26262.08
+INV-100150,2024-12-13,hr,training,LearnFast,3843.4
+INV-100119,2024-12-15,engineering,hardware,ServerParts Co,10932.82
+INV-100159,2024-12-15,finance,consulting,TaxWise Advisors,7561.84
+INV-100137,2024-12-16,sales,travel,RailEurope,11142.78
+INV-100147,2024-12-16,hr,recruiting,TalentScout,12722.01
+INV-100155,2024-12-16,hr,software,PeopleHQ,2485.97
+INV-100130,2024-12-17,marketing,agencies,Story & Co,7833.67
+INV-100138,2024-12-18,sales,software,CRMCloud,3091.82
+INV-100146,2024-12-18,hr,recruiting,TalentScout,6875.72
+INV-100125,2024-12-19,marketing,advertising,AdReach,19616.08
+INV-100158,2024-12-19,finance,consulting,TaxWise Advisors,2837.2
+INV-100165,2024-12-19,operations,logistics,FastFreight,21545.47
+INV-100116,2024-12-20,engineering,contractors,Nearshore Devs,23227.9
+INV-100118,2024-12-21,engineering,hardware,ServerParts Co,8828.96
+INV-100163,2024-12-21,operations,utilities,PowerGrid Energy,3560.17
+INV-100114,2024-12-22,engineering,contractors,Nearshore Devs,16200.85
+INV-100115,2024-12-22,engineering,contractors,ByteForce Consulting,27624.5
+INV-100121,2024-12-22,engineering,travel,SkyTravel,5890.8
+INV-100126,2024-12-23,marketing,advertising,SearchAds Pro,23417.44
+INV-100141,2024-12-23,sales,software,CRMCloud,5790.8
+INV-100160,2024-12-23,operations,facilities,OfficeSpace Ltd,30464.55
+INV-100133,2024-12-24,marketing,travel,CityHotels,2366.53
+INV-100136,2024-12-25,sales,travel,RailEurope,24275.49
+INV-100143,2024-12-25,sales,entertainment,FineDining Group,5125.61
+INV-100161,2024-12-25,operations,facilities,OfficeSpace Ltd,43991.79
+INV-100120,2024-12-26,engineering,travel,SkyTravel,4215.79
+INV-100123,2024-12-26,engineering,training,LearnFast,3016.88
+INV-100132,2024-12-26,marketing,software,WebAnalytix,8705.9
+INV-100134,2024-12-27,marketing,travel,CityHotels,2245.92
+INV-100145,2024-12-27,hr,recruiting,JobBoard Plus,5810.84
+INV-100129,2024-12-28,marketing,events,EventMakers,24064.45
+INV-100144,2024-12-28,sales,entertainment,ClientGifts,2925.21
+INV-100191,2025-01-02,marketing,software,WebAnalytix,1286.08
+INV-100194,2025-01-02,marketing,travel,CityHotels,799.29
+INV-100227,2025-01-02,finance,consulting,TaxWise Advisors,3053.62
+INV-100210,2025-01-03,hr,training,LearnFast,5386.96
+INV-100167,2025-01-04,engineering,software,CodeHub,7404.08
+INV-100189,2025-01-04,marketing,agencies,BrightCreative,22658.25
+INV-100196,2025-01-04,marketing,travel,SkyTravel,2555.7
+INV-100235,2025-01-04,operations,utilities,PowerGrid Energy,14448.63
+INV-100204,2025-01-06,sales,events,EventMakers,4569.89
+INV-100211,2025-01-06,hr,training,LeadershipLab,4989.51
+INV-100181,2025-01-08,marketing,advertising,SocialBoost,31316.05
+INV-100185,2025-01-08,marketing,events,EventMakers,8093.76
+INV-100188,2025-01-09,marketing,agencies,Story & Co,9451.94
+INV-100190,2025-01-09,marketing,software,MailBlast,2278.75
+INV-100203,2025-01-09,sales,events,EventMakers,3935.71
+INV-100208,2025-01-09,hr,recruiting,TalentScout,8807.75
+INV-100233,2025-01-10,operations,office_supplies,SupplyStore,535.2
+INV-100173,2025-01-11,engineering,contractors,ByteForce Consulting,25135.72
+INV-100176,2025-01-11,engineering,travel,CityHotels,3045.16
+INV-100187,2025-01-11,marketing,events,EventMakers,7430.96
+INV-100193,2025-01-11,marketing,travel,SkyTravel,1139.4
+INV-100222,2025-01-11,finance,software,LedgerCloud,4118.55
+INV-100225,2025-01-11,finance,audit,Smith & Partners Audit,25983.03
+INV-100168,2025-01-12,engineering,software,Monitorly,23331.91
+INV-100175,2025-01-12,engineering,travel,CityHotels,2352.58
+INV-100183,2025-01-12,marketing,advertising,SocialBoost,23878.6
+INV-100212,2025-01-13,hr,software,PayrollPro,2951.68
+INV-100223,2025-01-13,finance,audit,Smith & Partners Audit,18424.18
+INV-100238,2025-01-13,operations,logistics,FastFreight,9614.7
+INV-100166,2025-01-14,engineering,software,CodeHub,23716.71
+INV-100198,2025-01-14,sales,software,CRMCloud,3720.54
+INV-100205,2025-01-14,sales,entertainment,ClientGifts,7812.24
+INV-100209,2025-01-14,hr,recruiting,TalentScout,8769.22
+INV-100221,2025-01-14,finance,software,ExpenseEasy,3874.55
+INV-100171,2025-01-15,engineering,contractors,Nearshore Devs,22234.77
+INV-100174,2025-01-15,engineering,hardware,LaptopWorld,21696.43
+INV-100200,2025-01-15,sales,software,DealRoom,9890.02
+INV-100206,2025-01-15,hr,recruiting,TalentScout,4770.78
+INV-100214,2025-01-15,hr,software,PeopleHQ,2327.95
+INV-100224,2025-01-15,finance,audit,Smith & Partners Audit,20949.15
+INV-100226,2025-01-15,finance,consulting,TaxWise Advisors,3172.74
+INV-100237,2025-01-15,operations,logistics,FastFreight,4399.09
+INV-100179,2025-01-16,engineering,training,LearnFast,1223.58
+INV-100219,2025-01-16,finance,software,LedgerCloud,5506.33
+INV-100220,2025-01-16,finance,software,ExpenseEasy,1882.14
+INV-100236,2025-01-16,operations,logistics,FastFreight,6586.87
+INV-100213,2025-01-17,hr,software,PayrollPro,3088.12
+INV-100228,2025-01-17,finance,consulting,TaxWise Advisors,599.3
+INV-100170,2025-01-18,engineering,contractors,Nearshore Devs,11587.61
+INV-100178,2025-01-18,engineering,travel,SkyTravel,3015.52
+INV-100184,2025-01-18,marketing,advertising,SearchAds Pro,29201.17
+INV-100230,2025-01-18,operations,facilities,OfficeSpace Ltd,73568.21
+INV-100234,2025-01-18,operations,office_supplies,SupplyStore,1940.96
+INV-100217,2025-01-19,hr,benefits_admin,BenefitBridge,1185.23
+INV-100177,2025-01-20,engineering,travel,CityHotels,2302.66
+INV-100229,2025-01-20,finance,consulting,TaxWise Advisors,3186.02
+INV-100202,2025-01-21,sales,events,EventMakers,3991.11
+INV-100182,2025-01-22,marketing,advertising,SearchAds Pro,10495.94
+INV-100197,2025-01-22,sales,travel,SkyTravel,35487.65
+INV-100207,2025-01-22,hr,recruiting,TalentScout,4190.21
+INV-100215,2025-01-22,hr,benefits_admin,BenefitBridge,4904.0
+INV-100180,2025-01-23,engineering,training,CertPro,3941.63
+INV-100192,2025-01-23,marketing,software,MailBlast,4408.88
+INV-100232,2025-01-23,operations,office_supplies,SupplyStore,1601.16
+INV-100186,2025-01-24,marketing,events,EventMakers,9588.9
+INV-100199,2025-01-25,sales,software,DealRoom,5847.22
+INV-100201,2025-01-25,sales,events,EventMakers,2456.71
+INV-100216,2025-01-25,hr,benefits_admin,BenefitBridge,4217.52
+INV-100218,2025-01-25,hr,benefits_admin,BenefitBridge,2250.8
+INV-100231,2025-01-26,operations,office_supplies,SupplyStore,2527.5
+INV-100169,2025-01-27,engineering,software,CodeHub,5854.07
+INV-100172,2025-01-27,engineering,contractors,Nearshore Devs,26199.94
+INV-100195,2025-01-28,marketing,travel,CityHotels,1823.78
+INV-100271,2025-02-01,sales,events,ExpoHall,1822.26
+INV-100287,2025-02-01,hr,benefits_admin,BenefitBridge,3721.6
+INV-100293,2025-02-02,operations,facilities,CleanCo,74581.63
+INV-100251,2025-02-03,engineering,training,CertPro,3108.95
+INV-100286,2025-02-03,hr,benefits_admin,BenefitBridge,4094.97
+INV-100258,2025-02-04,marketing,agencies,BrightCreative,33702.71
+INV-100289,2025-02-04,finance,software,LedgerCloud,5818.48
+INV-100299,2025-02-04,operations,logistics,ParcelGo,8359.87
+INV-100248,2025-02-05,engineering,travel,CityHotels,2904.44
+INV-100261,2025-02-05,marketing,software,MailBlast,3503.64
+INV-100280,2025-02-06,hr,training,LearnFast,6644.73
+INV-100275,2025-02-08,sales,entertainment,FineDining Group,2762.84
+INV-100298,2025-02-08,operations,logistics,ParcelGo,3409.95
+INV-100272,2025-02-09,sales,events,EventMakers,3454.7
+INV-100281,2025-02-09,hr,software,PayrollPro,1991.83
+INV-100241,2025-02-10,engineering,contractors,Nearshore Devs,80147.12
+INV-100259,2025-02-10,marketing,software,WebAnalytix,3880.97
+INV-100270,2025-02-10,sales,events,ExpoHall,6259.35
+INV-100240,2025-02-11,engineering,software,Monitorly,20608.14
+INV-100253,2025-02-11,engineering,training,CertPro,963.55
+INV-100254,2025-02-11,marketing,advertising,SearchAds Pro,37492.81
+INV-100260,2025-02-12,marketing,software,WebAnalytix,865.2
+INV-100266,2025-02-12,sales,software,DealRoom,8185.67
+INV-100246,2025-02-13,engineering,travel,SkyTravel,781.75
+INV-100295,2025-02-14,operations,utilities,PowerGrid Energy,4509.19
+INV-100296,2025-02-14,operations,utilities,PowerGrid Energy,4885.54
+INV-100242,2025-02-15,engineering,hardware,ServerParts Co,5854.42
+INV-100264,2025-02-15,sales,travel,CityHotels,12388.79
+INV-100269,2025-02-15,sales,software,DealRoom,4770.2
+INV-100278,2025-02-15,hr,recruiting,TalentScout,26548.92
+INV-100292,2025-02-15,finance,consulting,TaxWise Advisors,9942.13
+INV-100247,2025-02-16,engineering,travel,SkyTravel,3031.11
+INV-100290,2025-02-16,finance,software,LedgerCloud,2833.55
+INV-100294,2025-02-18,operations,office_supplies,SupplyStore,6739.05
+INV-100300,2025-02-18,operations,logistics,ParcelGo,9427.37
+INV-100245,2025-02-19,engineering,hardware,ServerParts Co,5892.86
+INV-100273,2025-02-19,sales,events,EventMakers,3321.56
+INV-100263,2025-02-20,marketing,travel,SkyTravel,2697.36
+INV-100276,2025-02-20,sales,entertainment,ClientGifts,2444.22
+INV-100291,2025-02-20,finance,software,ExpenseEasy,3562.32
+INV-100267,2025-02-21,sales,software,DealRoom,6523.59
+INV-100288,2025-02-21,finance,software,ExpenseEasy,3486.05
+INV-100257,2025-02-22,marketing,events,ExpoHall,24083.32
+INV-100265,2025-02-22,sales,travel,SkyTravel,24018.75
+INV-100277,2025-02-22,sales,entertainment,FineDining Group,1077.44
+INV-100244,2025-02-23,engineering,hardware,LaptopWorld,5960.13
+INV-100255,2025-02-23,marketing,advertising,SocialBoost,37742.24
+INV-100268,2025-02-23,sales,software,DealRoom,2660.96
+INV-100279,2025-02-24,hr,training,LeadershipLab,3893.8
+INV-100283,2025-02-24,hr,software,PayrollPro,2808.4
+INV-100284,2025-02-24,hr,benefits_admin,BenefitBridge,4082.31
+INV-100239,2025-02-26,engineering,software,CodeHub,46042.48
+INV-100252,2025-02-26,engineering,training,CertPro,602.92
+INV-100274,2025-02-26,sales,entertainment,ClientGifts,2587.25
+INV-100282,2025-02-26,hr,software,PayrollPro,3034.65
+INV-100297,2025-02-27,operations,utilities,NetConnect,5936.23
+INV-100243,2025-02-28,engineering,hardware,LaptopWorld,4320.97
+INV-100249,2025-02-28,engineering,travel,SkyTravel,3245.13
+INV-100250,2025-02-28,engineering,training,LearnFast,839.12
+INV-100256,2025-02-28,marketing,advertising,SearchAds Pro,20664.57
+INV-100262,2025-02-28,marketing,travel,CityHotels,3577.4
+INV-100285,2025-02-28,hr,benefits_admin,BenefitBridge,1196.22
+INV-100309,2025-03-01,engineering,training,LearnFast,5506.04
+INV-100335,2025-03-01,hr,software,PeopleHQ,2867.51
+INV-100324,2025-03-03,sales,entertainment,FineDining Group,4680.39
+INV-100325,2025-03-03,sales,entertainment,ClientGifts,3558.59
+INV-100337,2025-03-03,hr,benefits_admin,BenefitBridge,3260.75
+INV-100352,2025-03-03,operations,logistics,ParcelGo,4762.4
+INV-100344,2025-03-04,operations,office_supplies,SupplyStore,1558.71
+INV-100350,2025-03-04,operations,utilities,PowerGrid Energy,5601.56
+INV-100308,2025-03-05,engineering,travel,CityHotels,4559.15
+INV-100311,2025-03-05,marketing,advertising,SearchAds Pro,18739.74
+INV-100317,2025-03-05,marketing,travel,SkyTravel,5875.73
+INV-100331,2025-03-05,hr,training,LeadershipLab,3288.07
+INV-100336,2025-03-05,hr,benefits_admin,BenefitBridge,6636.83
+INV-100341,2025-03-05,finance,consulting,TaxWise Advisors,10623.77
+INV-100339,2025-03-06,finance,software,ExpenseEasy,6903.7
+INV-100305,2025-03-07,engineering,hardware,LaptopWorld,4934.35
+INV-100313,2025-03-08,marketing,agencies,BrightCreative,32932.86
+INV-100332,2025-03-08,hr,training,LearnFast,2252.49
+INV-100307,2025-03-09,engineering,travel,SkyTravel,5662.66
+INV-100310,2025-03-09,marketing,advertising,AdReach,68508.79
+INV-100342,2025-03-09,operations,facilities,CleanCo,76565.75
+INV-100340,2025-03-10,finance,software,ExpenseEasy,7831.69
+INV-100349,2025-03-10,operations,utilities,NetConnect,1977.96
+INV-100304,2025-03-11,engineering,contractors,ByteForce Consulting,85387.7
+INV-100323,2025-03-11,sales,events,ExpoHall,15509.71
+INV-100329,2025-03-12,hr,training,LearnFast,3005.79
+INV-100343,2025-03-12,operations,office_supplies,SupplyStore,2048.25
+INV-100315,2025-03-14,marketing,software,MailBlast,4869.7
+INV-100319,2025-03-14,sales,travel,SkyTravel,14722.44
+INV-100321,2025-03-14,sales,software,DealRoom,7232.8
+INV-100328,2025-03-14,hr,recruiting,JobBoard Plus,7566.99
+INV-100333,2025-03-14,hr,software,PeopleHQ,2118.78
+INV-100354,2025-03-14,operations,logistics,FastFreight,5747.83
+INV-100301,2025-03-15,engineering,software,DevTools Inc,12984.75
+INV-100312,2025-03-16,marketing,events,ExpoHall,25942.97
+INV-100314,2025-03-16,marketing,software,WebAnalytix,2752.92
+INV-100316,2025-03-16,marketing,software,WebAnalytix,1091.16
+INV-100318,2025-03-17,sales,travel,RailEurope,10725.38
+INV-100346,2025-03-17,operations,office_supplies,SupplyStore,1807.84
+INV-100326,2025-03-18,hr,recruiting,JobBoard Plus,9734.76
+INV-100330,2025-03-19,hr,training,LearnFast,2592.02
+INV-100334,2025-03-20,hr,software,PayrollPro,3220.15
+INV-100303,2025-03-21,engineering,software,Monitorly,34910.6
+INV-100302,2025-03-22,engineering,software,DevTools Inc,10731.33
+INV-100327,2025-03-22,hr,recruiting,TalentScout,7277.44
+INV-100345,2025-03-22,operations,office_supplies,SupplyStore,1054.66
+INV-100338,2025-03-24,hr,benefits_admin,BenefitBridge,2257.01
+INV-100347,2025-03-25,operations,utilities,PowerGrid Energy,5792.9
+INV-100348,2025-03-25,operations,utilities,NetConnect,1246.09
+INV-100320,2025-03-26,sales,travel,RailEurope,9137.42
+INV-100306,2025-03-27,engineering,hardware,LaptopWorld,17729.87
+INV-100322,2025-03-27,sales,software,DealRoom,12490.59
+INV-100351,2025-03-27,operations,logistics,ParcelGo,3083.74
+INV-100353,2025-03-28,operations,logistics,FastFreight,7417.43
+INV-100407,2025-04-01,operations,utilities,NetConnect,3792.52
+INV-100411,2025-04-01,operations,logistics,FastFreight,6588.47
+INV-100412,2025-04-01,operations,logistics,ParcelGo,2491.01
+INV-100372,2025-04-02,marketing,events,EventMakers,9245.67
+INV-100379,2025-04-02,marketing,travel,SkyTravel,1776.72
+INV-100383,2025-04-02,sales,travel,RailEurope,13345.33
+INV-100358,2025-04-03,engineering,contractors,Nearshore Devs,38060.42
+INV-100361,2025-04-03,engineering,hardware,LaptopWorld,5118.73
+INV-100408,2025-04-04,operations,utilities,NetConnect,2354.25
+INV-100385,2025-04-05,sales,events,ExpoHall,6230.0
+INV-100391,2025-04-05,hr,training,LearnFast,5789.36
+INV-100410,2025-04-05,operations,utilities,PowerGrid Energy,3105.91
+INV-100393,2025-04-06,hr,benefits_admin,BenefitBridge,9047.89
+INV-100364,2025-04-07,engineering,travel,SkyTravel,5775.74
+INV-100413,2025-04-07,operations,logistics,FastFreight,6658.06
+INV-100390,2025-04-08,hr,training,LearnFast,2089.37
+INV-100396,2025-04-08,finance,software,LedgerCloud,3298.15
+INV-100405,2025-04-08,operations,office_supplies,SupplyStore,4784.04
+INV-100400,2025-04-09,finance,consulting,TaxWise Advisors,3670.67
+INV-100386,2025-04-10,sales,events,ExpoHall,9142.88
+INV-100395,2025-04-10,finance,software,ExpenseEasy,6606.11
+INV-100397,2025-04-10,finance,software,ExpenseEasy,4856.03
+INV-100360,2025-04-11,engineering,hardware,LaptopWorld,6220.16
+INV-100367,2025-04-11,marketing,advertising,SearchAds Pro,20962.02
+INV-100368,2025-04-11,marketing,advertising,AdReach,25741.75
+INV-100373,2025-04-12,marketing,events,ExpoHall,4593.01
+INV-100406,2025-04-12,operations,office_supplies,SupplyStore,1353.55
+INV-100380,2025-04-13,sales,travel,CityHotels,8643.54
+INV-100387,2025-04-13,sales,entertainment,ClientGifts,7988.0
+INV-100388,2025-04-14,hr,recruiting,JobBoard Plus,27867.81
+INV-100369,2025-04-15,marketing,advertising,AdReach,20054.64
+INV-100371,2025-04-15,marketing,events,ExpoHall,13257.2
+INV-100398,2025-04-15,finance,audit,Smith & Partners Audit,22451.77
+INV-100370,2025-04-16,marketing,advertising,SocialBoost,28227.4
+INV-100389,2025-04-16,hr,training,LearnFast,1918.22
+INV-100362,2025-04-17,engineering,hardware,LaptopWorld,4384.19
+INV-100374,2025-04-17,marketing,agencies,Story & Co,29688.92
+INV-100378,2025-04-17,marketing,travel,SkyTravel,1143.26
+INV-100384,2025-04-18,sales,software,DealRoom,21730.78
+INV-100392,2025-04-18,hr,software,PeopleHQ,8214.69
+INV-100403,2025-04-18,finance,consulting,TaxWise Advisors,1065.06
+INV-100414,2025-04-18,operations,logistics,ParcelGo,4768.92
+INV-100355,2025-04-19,engineering,software,CodeHub,63281.08
+INV-100356,2025-04-20,engineering,contractors,Nearshore Devs,15975.95
+INV-100365,2025-04-20,engineering,travel,SkyTravel,4586.56
+INV-100401,2025-04-21,finance,consulting,TaxWise Advisors,3200.52
+INV-100382,2025-04-22,sales,travel,RailEurope,6731.51
+INV-100377,2025-04-23,marketing,travel,SkyTravel,2034.64
+INV-100394,2025-04-24,hr,benefits_admin,BenefitBridge,4020.39
+INV-100363,2025-04-25,engineering,hardware,ServerParts Co,4635.41
+INV-100366,2025-04-25,engineering,training,CertPro,5528.58
+INV-100381,2025-04-25,sales,travel,CityHotels,9667.02
+INV-100399,2025-04-25,finance,audit,Smith & Partners Audit,45356.18
+INV-100404,2025-04-25,operations,facilities,OfficeSpace Ltd,76819.76
+INV-100375,2025-04-26,marketing,software,MailBlast,8441.5
+INV-100409,2025-04-26,operations,utilities,PowerGrid Energy,6453.31
+INV-100357,2025-04-27,engineering,contractors,Nearshore Devs,19746.0
+INV-100376,2025-04-27,marketing,travel,CityHotels,1232.62
+INV-100359,2025-04-28,engineering,contractors,ByteForce Consulting,12136.56
+INV-100402,2025-04-28,finance,consulting,TaxWise Advisors,3151.32
+INV-100433,2025-05-02,marketing,software,WebAnalytix,2586.69
+INV-100444,2025-05-03,sales,events,ExpoHall,4133.84
+INV-100464,2025-05-03,operations,facilities,CleanCo,16020.35
+INV-100417,2025-05-04,engineering,software,CodeHub,22079.3
+INV-100451,2025-05-04,hr,training,LearnFast,3419.54
+INV-100447,2025-05-05,sales,entertainment,FineDining Group,4192.05
+INV-100448,2025-05-05,hr,recruiting,JobBoard Plus,7423.38
+INV-100455,2025-05-05,hr,benefits_admin,BenefitBridge,4403.24
+INV-100468,2025-05-05,operations,office_supplies,SupplyStore,2286.58
+INV-100435,2025-05-06,marketing,travel,CityHotels,1977.38
+INV-100441,2025-05-06,sales,software,DealRoom,8598.07
+INV-100434,2025-05-09,marketing,software,MailBlast,5651.85
+INV-100454,2025-05-09,hr,software,PayrollPro,9144.6
+INV-100430,2025-05-10,marketing,events,EventMakers,20039.75
+INV-100431,2025-05-10,marketing,agencies,Story & Co,20216.44
+INV-100458,2025-05-10,finance,software,ExpenseEasy,5961.53
+INV-100423,2025-05-12,engineering,training,LearnFast,1498.22
+INV-100437,2025-05-12,marketing,travel,CityHotels,1986.73
+INV-100442,2025-05-12,sales,software,DealRoom,8072.33
+INV-100445,2025-05-12,sales,events,EventMakers,5465.44
+INV-100449,2025-05-12,hr,recruiting,JobBoard Plus,15179.09
+INV-100471,2025-05-12,operations,logistics,ParcelGo,7581.06
+INV-100465,2025-05-13,operations,facilities,CleanCo,28262.79
+INV-100419,2025-05-14,engineering,hardware,LaptopWorld,7409.68
+INV-100416,2025-05-15,engineering,software,DevTools Inc,16207.91
+INV-100427,2025-05-15,marketing,advertising,SearchAds Pro,43127.06
+INV-100429,2025-05-15,marketing,events,EventMakers,5401.07
+INV-100440,2025-05-15,sales,software,DealRoom,4928.32
+INV-100446,2025-05-15,sales,entertainment,FineDining Group,5006.41
+INV-100450,2025-05-15,hr,recruiting,TalentScout,3068.72
+INV-100456,2025-05-15,hr,benefits_admin,BenefitBridge,5903.77
+INV-100466,2025-05-15,operations,office_supplies,SupplyStore,1995.89
+INV-100422,2025-05-16,engineering,travel,SkyTravel,9979.74
+INV-100428,2025-05-16,marketing,advertising,SearchAds Pro,15960.88
+INV-100453,2025-05-16,hr,training,LeadershipLab,2570.86
+INV-100421,2025-05-17,engineering,hardware,ServerParts Co,5187.92
+INV-100470,2025-05-17,operations,utilities,PowerGrid Energy,15908.65
+INV-100462,2025-05-18,operations,facilities,OfficeSpace Ltd,6372.08
+INV-100418,2025-05-19,engineering,contractors,ByteForce Consulting,87098.41
+INV-100463,2025-05-20,operations,facilities,OfficeSpace Ltd,21233.0
+INV-100415,2025-05-21,engineering,software,Monitorly,22039.05
+INV-100420,2025-05-22,engineering,hardware,LaptopWorld,9594.89
+INV-100467,2025-05-22,operations,office_supplies,SupplyStore,533.92
+INV-100436,2025-05-23,marketing,travel,CityHotels,1712.07
+INV-100457,2025-05-23,hr,benefits_admin,BenefitBridge,1971.05
+INV-100460,2025-05-23,finance,software,LedgerCloud,5152.03
+INV-100424,2025-05-24,engineering,training,LearnFast,714.16
+INV-100452,2025-05-24,hr,training,LearnFast,4857.76
+INV-100425,2025-05-25,engineering,training,CertPro,3264.67
+INV-100426,2025-05-25,marketing,advertising,SearchAds Pro,31744.55
+INV-100469,2025-05-25,operations,office_supplies,SupplyStore,1642.87
+INV-100438,2025-05-26,marketing,travel,SkyTravel,1064.74
+INV-100443,2025-05-26,sales,events,EventMakers,5305.17
+INV-100461,2025-05-26,finance,consulting,TaxWise Advisors,10736.37
+INV-100432,2025-05-27,marketing,agencies,Story & Co,9599.93
+INV-100439,2025-05-27,sales,travel,SkyTravel,38888.12
+INV-100459,2025-05-28,finance,software,LedgerCloud,6247.99
+INV-100472,2025-05-28,operations,logistics,FastFreight,13189.63
+INV-100476,2025-06-01,engineering,contractors,ByteForce Consulting,30219.03
+INV-100492,2025-06-01,marketing,agencies,BrightCreative,20975.59
+INV-100517,2025-06-01,hr,training,LeadershipLab,3463.68
+INV-100477,2025-06-02,engineering,contractors,Nearshore Devs,22134.42
+INV-100504,2025-06-02,sales,software,CRMCloud,4227.73
+INV-100499,2025-06-03,marketing,travel,CityHotels,1943.71
+INV-100510,2025-06-04,sales,entertainment,ClientGifts,4246.48
+INV-100516,2025-06-04,hr,training,LearnFast,1367.71
+INV-100500,2025-06-05,sales,travel,SkyTravel,14620.92
+INV-100505,2025-06-05,sales,software,DealRoom,7512.64
+INV-100519,2025-06-05,hr,training,LeadershipLab,4515.6
+INV-100536,2025-06-05,operations,office_supplies,SupplyStore,4373.44
+INV-100474,2025-06-06,engineering,software,Monitorly,20087.2
+INV-100527,2025-06-07,hr,benefits_admin,BenefitBridge,5726.85
+INV-100489,2025-06-08,marketing,events,EventMakers,11043.15
+INV-100482,2025-06-10,engineering,hardware,ServerParts Co,5840.08
+INV-100491,2025-06-10,marketing,agencies,Story & Co,6302.35
+INV-100494,2025-06-10,marketing,software,MailBlast,1615.14
+INV-100528,2025-06-10,finance,software,LedgerCloud,3176.99
+INV-100533,2025-06-10,finance,consulting,TaxWise Advisors,4293.5
+INV-100506,2025-06-11,sales,events,EventMakers,2040.16
+INV-100518,2025-06-11,hr,training,LeadershipLab,910.71
+INV-100524,2025-06-11,hr,benefits_admin,BenefitBridge,3735.82
+INV-100530,2025-06-11,finance,software,ExpenseEasy,3720.97
+INV-100498,2025-06-12,marketing,travel,CityHotels,1831.59
+INV-100485,2025-06-13,engineering,training,LearnFast,1233.23
+INV-100488,2025-06-13,marketing,events,ExpoHall,15021.09
+INV-100501,2025-06-13,sales,travel,CityHotels,11739.41
+INV-100507,2025-06-13,sales,events,ExpoHall,6391.24
+INV-100531,2025-06-13,finance,consulting,TaxWise Advisors,2818.02
+INV-100483,2025-06-14,engineering,travel,CityHotels,10088.71
+INV-100496,2025-06-14,marketing,software,MailBlast,974.74
+INV-100540,2025-06-14,operations,logistics,ParcelGo,5583.51
+INV-100487,2025-06-15,marketing,advertising,AdReach,97690.69
+INV-100490,2025-06-15,marketing,agencies,Story & Co,6837.13
+INV-100534,2025-06-15,operations,facilities,CleanCo,73224.35
+INV-100480,2025-06-16,engineering,hardware,LaptopWorld,1803.82
+INV-100493,2025-06-16,marketing,software,WebAnalytix,4539.04
+INV-100541,2025-06-16,operations,logistics,FastFreight,7317.24
+INV-100473,2025-06-17,engineering,software,Monitorly,12990.14
+INV-100503,2025-06-17,sales,software,CRMCloud,10117.16
+INV-100509,2025-06-17,sales,events,ExpoHall,6614.8
+INV-100522,2025-06-17,hr,software,PeopleHQ,1854.26
+INV-100537,2025-06-17,operations,utilities,PowerGrid Energy,5577.87
+INV-100523,2025-06-18,hr,software,PayrollPro,2894.51
+INV-100535,2025-06-18,operations,office_supplies,SupplyStore,2380.82
+INV-100539,2025-06-18,operations,logistics,FastFreight,4403.45
+INV-100475,2025-06-19,engineering,software,DevTools Inc,29301.51
+INV-100497,2025-06-19,marketing,travel,SkyTravel,3119.41
+INV-100508,2025-06-19,sales,events,ExpoHall,1986.61
+INV-100511,2025-06-19,sales,entertainment,ClientGifts,1363.1
+INV-100513,2025-06-19,hr,recruiting,TalentScout,10263.19
+INV-100515,2025-06-19,hr,recruiting,JobBoard Plus,8584.35
+INV-100526,2025-06-20,hr,benefits_admin,BenefitBridge,1921.69
+INV-100478,2025-06-21,engineering,contractors,ByteForce Consulting,29717.75
+INV-100479,2025-06-21,engineering,hardware,ServerParts Co,6408.21
+INV-100538,2025-06-21,operations,utilities,PowerGrid Energy,10965.61
+INV-100525,2025-06-22,hr,benefits_admin,BenefitBridge,2645.55
+INV-100521,2025-06-23,hr,software,PeopleHQ,2240.44
+INV-100529,2025-06-23,finance,software,ExpenseEasy,8770.56
+INV-100484,2025-06-24,engineering,training,CertPro,1940.75
+INV-100514,2025-06-24,hr,recruiting,TalentScout,8643.64
+INV-100520,2025-06-24,hr,software,PeopleHQ,1937.68
+INV-100486,2025-06-25,engineering,training,CertPro,2209.5
+INV-100532,2025-06-25,finance,consulting,TaxWise Advisors,4468.47
+INV-100542,2025-06-25,operations,logistics,ParcelGo,2802.26
+INV-100481,2025-06-26,engineering,hardware,ServerParts Co,8530.07
+INV-100502,2025-06-26,sales,travel,CityHotels,11565.46
+INV-100512,2025-06-26,sales,entertainment,FineDining Group,3342.6
+INV-100495,2025-06-28,marketing,software,MailBlast,2151.06
+INV-100559,2025-07-01,marketing,agencies,Story & Co,14061.32
+INV-100543,2025-07-03,engineering,software,Monitorly,63743.49
+INV-100580,2025-07-03,hr,training,LeadershipLab,2293.65
+INV-100591,2025-07-03,finance,consulting,TaxWise Advisors,2368.84
+INV-100547,2025-07-04,engineering,travel,CityHotels,5445.61
+INV-100596,2025-07-05,operations,facilities,CleanCo,42454.0
+INV-100598,2025-07-05,operations,office_supplies,SupplyStore,2207.22
+INV-100544,2025-07-06,engineering,contractors,Nearshore Devs,88532.63
+INV-100554,2025-07-06,marketing,advertising,SearchAds Pro,32832.72
+INV-100555,2025-07-06,marketing,events,EventMakers,10240.68
+INV-100562,2025-07-06,marketing,software,WebAnalytix,8136.49
+INV-100585,2025-07-06,hr,benefits_admin,BenefitBridge,8227.68
+INV-100602,2025-07-06,operations,logistics,ParcelGo,10228.27
+INV-100550,2025-07-07,engineering,training,LearnFast,3551.67
+INV-100557,2025-07-08,marketing,events,EventMakers,2859.22
+INV-100564,2025-07-08,marketing,travel,SkyTravel,1975.01
+INV-100594,2025-07-08,finance,consulting,TaxWise Advisors,1280.94
+INV-100597,2025-07-08,operations,office_supplies,SupplyStore,1764.51
+INV-100603,2025-07-08,operations,logistics,FastFreight,6941.18
+INV-100558,2025-07-09,marketing,events,ExpoHall,8667.83
+INV-100589,2025-07-09,finance,audit,Smith & Partners Audit,29704.26
+INV-100548,2025-07-10,engineering,travel,CityHotels,1058.37
+INV-100552,2025-07-10,marketing,advertising,SearchAds Pro,56152.28
+INV-100587,2025-07-10,finance,software,ExpenseEasy,8837.49
+INV-100604,2025-07-10,operations,logistics,FastFreight,5704.51
+INV-100551,2025-07-11,engineering,training,LearnFast,2257.33
+INV-100563,2025-07-12,marketing,travel,SkyTravel,2096.47
+INV-100601,2025-07-12,operations,utilities,NetConnect,6825.82
+INV-100582,2025-07-13,hr,software,PayrollPro,1091.99
+INV-100584,2025-07-13,hr,software,PeopleHQ,3025.32
+INV-100577,2025-07-14,hr,training,LeadershipLab,3817.77
+INV-100581,2025-07-14,hr,software,PayrollPro,1237.04
+INV-100599,2025-07-14,operations,office_supplies,SupplyStore,2311.26
+INV-100571,2025-07-15,sales,entertainment,FineDining Group,2273.83
+INV-100574,2025-07-15,hr,recruiting,TalentScout,7545.61
+INV-100593,2025-07-15,finance,consulting,TaxWise Advisors,3165.65
+INV-100556,2025-07-16,marketing,events,ExpoHall,7132.46
+INV-100565,2025-07-16,marketing,travel,SkyTravel,2685.99
+INV-100600,2025-07-16,operations,utilities,PowerGrid Energy,8989.28
+INV-100569,2025-07-17,sales,software,DealRoom,22504.86
+INV-100573,2025-07-17,hr,recruiting,JobBoard Plus,3090.38
+INV-100586,2025-07-17,hr,benefits_admin,BenefitBridge,5280.25
+INV-100566,2025-07-18,sales,travel,RailEurope,11495.67
+INV-100570,2025-07-18,sales,events,EventMakers,15297.86
+INV-100575,2025-07-18,hr,recruiting,JobBoard Plus,10714.33
+INV-100579,2025-07-18,hr,training,LearnFast,3510.67
+INV-100592,2025-07-20,finance,consulting,TaxWise Advisors,3302.85
+INV-100549,2025-07-21,engineering,travel,CityHotels,3883.95
+INV-100560,2025-07-21,marketing,agencies,Story & Co,6115.95
+INV-100553,2025-07-22,marketing,advertising,AdReach,13086.59
+INV-100572,2025-07-22,sales,entertainment,FineDining Group,6577.43
+INV-100576,2025-07-22,hr,recruiting,JobBoard Plus,6940.76
+INV-100588,2025-07-22,finance,software,ExpenseEasy,8165.88
+INV-100561,2025-07-23,marketing,agencies,BrightCreative,11244.85
+INV-100578,2025-07-23,hr,training,LearnFast,1705.48
+INV-100590,2025-07-24,finance,audit,Smith & Partners Audit,36252.14
+INV-100568,2025-07-25,sales,travel,SkyTravel,12522.0
+INV-100595,2025-07-25,operations,facilities,OfficeSpace Ltd,32906.79
+INV-100546,2025-07-26,engineering,hardware,ServerParts Co,4003.47
+INV-100545,2025-07-27,engineering,hardware,ServerParts Co,19208.02
+INV-100567,2025-07-27,sales,travel,SkyTravel,13985.57
+INV-100583,2025-07-28,hr,software,PayrollPro,2739.6
+INV-100631,2025-08-01,sales,software,DealRoom,7297.13
+INV-100633,2025-08-01,sales,software,DealRoom,6218.03
+INV-100608,2025-08-02,engineering,contractors,Nearshore Devs,26706.52
+INV-100651,2025-08-02,finance,consulting,TaxWise Advisors,4595.3
+INV-100607,2025-08-03,engineering,contractors,ByteForce Consulting,12721.92
+INV-100640,2025-08-03,hr,training,LeadershipLab,1991.76
+INV-100647,2025-08-03,finance,software,ExpenseEasy,6618.59
+INV-100656,2025-08-03,operations,utilities,NetConnect,1614.96
+INV-100657,2025-08-05,operations,utilities,NetConnect,4627.43
+INV-100648,2025-08-06,finance,software,LedgerCloud,5595.03
+INV-100612,2025-08-07,engineering,travel,SkyTravel,2908.57
+INV-100619,2025-08-07,marketing,advertising,SocialBoost,16841.13
+INV-100629,2025-08-07,sales,travel,RailEurope,17654.23
+INV-100614,2025-08-08,engineering,travel,SkyTravel,2380.36
+INV-100620,2025-08-08,marketing,events,EventMakers,26788.95
+INV-100621,2025-08-08,marketing,agencies,Story & Co,7239.79
+INV-100635,2025-08-08,sales,events,EventMakers,15527.5
+INV-100623,2025-08-09,marketing,agencies,Story & Co,6286.94
+INV-100645,2025-08-09,hr,benefits_admin,BenefitBridge,12769.99
+INV-100660,2025-08-10,operations,logistics,ParcelGo,21444.44
+INV-100636,2025-08-12,sales,entertainment,ClientGifts,4397.04
+INV-100654,2025-08-12,operations,office_supplies,SupplyStore,1779.15
+INV-100609,2025-08-13,engineering,contractors,ByteForce Consulting,35396.89
+INV-100615,2025-08-13,engineering,training,CertPro,2364.63
+INV-100605,2025-08-14,engineering,software,Monitorly,69519.89
+INV-100628,2025-08-14,marketing,travel,SkyTravel,7099.83
+INV-100655,2025-08-14,operations,office_supplies,SupplyStore,4482.72
+INV-100630,2025-08-15,sales,travel,CityHotels,23126.49
+INV-100637,2025-08-15,sales,entertainment,FineDining Group,2024.05
+INV-100611,2025-08-16,engineering,hardware,LaptopWorld,10288.71
+INV-100653,2025-08-16,operations,office_supplies,SupplyStore,863.12
+INV-100626,2025-08-17,marketing,software,MailBlast,4086.07
+INV-100650,2025-08-17,finance,consulting,TaxWise Advisors,4359.84
+INV-100616,2025-08-18,engineering,training,CertPro,3067.14
+INV-100622,2025-08-18,marketing,agencies,Story & Co,5792.39
+INV-100625,2025-08-18,marketing,software,MailBlast,1639.49
+INV-100632,2025-08-18,sales,software,DealRoom,1832.02
+INV-100643,2025-08-19,hr,training,LearnFast,3115.64
+INV-100642,2025-08-21,hr,training,LeadershipLab,2887.54
+INV-100610,2025-08-22,engineering,hardware,LaptopWorld,13124.4
+INV-100638,2025-08-23,sales,entertainment,FineDining Group,2585.25
+INV-100649,2025-08-23,finance,consulting,TaxWise Advisors,2708.69
+INV-100658,2025-08-23,operations,utilities,PowerGrid Energy,5641.76
+INV-100613,2025-08-24,engineering,travel,CityHotels,6410.3
+INV-100617,2025-08-24,marketing,advertising,SocialBoost,40201.96
+INV-100624,2025-08-24,marketing,agencies,Story & Co,11254.45
+INV-100659,2025-08-24,operations,utilities,NetConnect,5161.57
+INV-100618,2025-08-25,marketing,advertising,SocialBoost,39325.56
+INV-100652,2025-08-25,operations,facilities,CleanCo,76545.22
+INV-100634,2025-08-26,sales,software,CRMCloud,5191.55
+INV-100627,2025-08-27,marketing,software,MailBlast,3056.03
+INV-100646,2025-08-27,finance,software,ExpenseEasy,3505.65
+INV-100606,2025-08-28,engineering,contractors,Nearshore Devs,13968.5
+INV-100639,2025-08-28,hr,recruiting,TalentScout,26731.74
+INV-100641,2025-08-28,hr,training,LeadershipLab,2332.83
+INV-100644,2025-08-28,hr,software,PayrollPro,9395.18
+INV-100706,2025-09-01,finance,software,LedgerCloud,9749.64
+INV-100686,2025-09-03,sales,travel,CityHotels,17992.49
+INV-100663,2025-09-04,engineering,software,DevTools Inc,33831.11
+INV-100689,2025-09-04,sales,software,CRMCloud,6608.02
+INV-100692,2025-09-04,sales,events,ExpoHall,6573.43
+INV-100696,2025-09-04,sales,entertainment,ClientGifts,6596.2
+INV-100710,2025-09-04,operations,facilities,CleanCo,48089.76
+INV-100717,2025-09-04,operations,utilities,PowerGrid Energy,5511.55
+INV-100667,2025-09-05,engineering,travel,CityHotels,3742.0
+INV-100685,2025-09-05,marketing,travel,CityHotels,2957.48
+INV-100718,2025-09-05,operations,logistics,ParcelGo,11691.97
+INV-100676,2025-09-06,marketing,events,ExpoHall,9047.39
+INV-100691,2025-09-06,sales,software,CRMCloud,7306.9
+INV-100670,2025-09-08,engineering,training,CertPro,1522.09
+INV-100693,2025-09-08,sales,events,EventMakers,2994.84
+INV-100716,2025-09-08,operations,utilities,NetConnect,4993.7
+INV-100672,2025-09-11,marketing,advertising,SearchAds Pro,30439.5
+INV-100674,2025-09-11,marketing,events,EventMakers,7824.22
+INV-100677,2025-09-11,marketing,events,ExpoHall,2589.83
+INV-100701,2025-09-11,hr,software,PeopleHQ,1538.85
+INV-100715,2025-09-11,operations,utilities,PowerGrid Energy,7069.84
+INV-100669,2025-09-12,engineering,training,CertPro,1174.3
+INV-100679,2025-09-12,marketing,agencies,BrightCreative,10805.67
+INV-100712,2025-09-12,operations,office_supplies,SupplyStore,2237.14
+INV-100665,2025-09-13,engineering,hardware,LaptopWorld,23611.89
+INV-100666,2025-09-13,engineering,travel,SkyTravel,7816.04
+INV-100673,2025-09-13,marketing,advertising,SocialBoost,69293.68
+INV-100695,2025-09-13,sales,events,ExpoHall,1723.59
+INV-100697,2025-09-14,sales,entertainment,FineDining Group,2718.07
+INV-100719,2025-09-14,operations,logistics,FastFreight,10169.08
+INV-100682,2025-09-15,marketing,software,MailBlast,9184.84
+INV-100694,2025-09-15,sales,events,ExpoHall,5612.44
+INV-100704,2025-09-15,hr,benefits_admin,BenefitBridge,6158.06
+INV-100707,2025-09-15,finance,software,ExpenseEasy,7332.83
+INV-100675,2025-09-16,marketing,events,ExpoHall,8163.5
+INV-100662,2025-09-17,engineering,software,CodeHub,15403.96
+INV-100699,2025-09-17,hr,recruiting,JobBoard Plus,13026.07
+INV-100661,2025-09-18,engineering,software,Monitorly,16204.69
+INV-100688,2025-09-18,sales,software,CRMCloud,4960.05
+INV-100680,2025-09-19,marketing,agencies,BrightCreative,5786.86
+INV-100681,2025-09-19,marketing,agencies,BrightCreative,5285.23
+INV-100709,2025-09-19,finance,consulting,TaxWise Advisors,7534.35
+INV-100671,2025-09-20,engineering,training,LearnFast,1598.17
+INV-100687,2025-09-20,sales,travel,CityHotels,19444.11
+INV-100714,2025-09-20,operations,office_supplies,SupplyStore,2209.17
+INV-100684,2025-09-22,marketing,travel,CityHotels,759.73
+INV-100690,2025-09-22,sales,software,DealRoom,3732.01
+INV-100702,2025-09-22,hr,software,PeopleHQ,5728.02
+INV-100711,2025-09-22,operations,facilities,CleanCo,33749.45
+INV-100700,2025-09-23,hr,training,LeadershipLab,10885.89
+INV-100703,2025-09-24,hr,software,PeopleHQ,1399.87
+INV-100664,2025-09-26,engineering,contractors,Nearshore Devs,83393.0
+INV-100668,2025-09-26,engineering,training,LearnFast,1106.28
+INV-100678,2025-09-26,marketing,agencies,Story & Co,12850.09
+INV-100683,2025-09-26,marketing,travel,CityHotels,2910.89
+INV-100698,2025-09-26,hr,recruiting,TalentScout,13152.28
+INV-100705,2025-09-26,hr,benefits_admin,BenefitBridge,7264.22
+INV-100708,2025-09-26,finance,consulting,TaxWise Advisors,3987.8
+INV-100713,2025-09-28,operations,office_supplies,SupplyStore,2277.39
+INV-100762,2025-10-01,hr,software,PeopleHQ,3184.09
+INV-100764,2025-10-01,hr,benefits_admin,BenefitBridge,6710.49
+INV-100782,2025-10-01,operations,logistics,ParcelGo,23034.4
+INV-100761,2025-10-03,hr,software,PeopleHQ,3086.61
+INV-100770,2025-10-03,finance,audit,Smith & Partners Audit,34553.8
+INV-100767,2025-10-04,finance,software,ExpenseEasy,5392.74
+INV-100774,2025-10-04,operations,facilities,CleanCo,73661.57
+INV-100720,2025-10-05,engineering,software,DevTools Inc,35256.82
+INV-100769,2025-10-05,finance,software,ExpenseEasy,2302.32
+INV-100778,2025-10-07,operations,office_supplies,SupplyStore,1161.3
+INV-100733,2025-10-08,marketing,events,EventMakers,27896.0
+INV-100741,2025-10-08,marketing,travel,SkyTravel,2049.09
+INV-100779,2025-10-08,operations,utilities,NetConnect,5265.85
+INV-100781,2025-10-08,operations,utilities,NetConnect,6184.44
+INV-100759,2025-10-09,hr,training,LearnFast,6890.22
+INV-100738,2025-10-10,marketing,software,WebAnalytix,3970.67
+INV-100721,2025-10-11,engineering,software,CodeHub,32208.48
+INV-100752,2025-10-11,sales,events,EventMakers,5829.58
+INV-100732,2025-10-12,marketing,advertising,AdReach,98131.82
+INV-100760,2025-10-12,hr,training,LearnFast,2883.4
+INV-100768,2025-10-12,finance,software,ExpenseEasy,3413.3
+INV-100722,2025-10-13,engineering,contractors,Nearshore Devs,47418.33
+INV-100746,2025-10-13,sales,travel,RailEurope,7553.08
+INV-100780,2025-10-13,operations,utilities,PowerGrid Energy,6122.35
+INV-100723,2025-10-14,engineering,contractors,Nearshore Devs,28183.56
+INV-100724,2025-10-14,engineering,contractors,Nearshore Devs,16266.41
+INV-100730,2025-10-14,engineering,training,LearnFast,1952.16
+INV-100756,2025-10-14,hr,recruiting,TalentScout,19795.73
+INV-100772,2025-10-14,finance,consulting,TaxWise Advisors,7835.48
+INV-100729,2025-10-15,engineering,training,LearnFast,1514.01
+INV-100744,2025-10-15,sales,travel,SkyTravel,11110.19
+INV-100763,2025-10-16,hr,software,PeopleHQ,2097.43
+INV-100727,2025-10-18,engineering,travel,SkyTravel,2810.23
+INV-100775,2025-10-18,operations,office_supplies,SupplyStore,2102.01
+INV-100726,2025-10-19,engineering,travel,CityHotels,2443.17
+INV-100728,2025-10-19,engineering,travel,SkyTravel,5640.0
+INV-100753,2025-10-19,sales,events,ExpoHall,3813.15
+INV-100734,2025-10-20,marketing,agencies,BrightCreative,15063.79
+INV-100771,2025-10-20,finance,audit,Smith & Partners Audit,36013.87
+INV-100745,2025-10-21,sales,travel,SkyTravel,12527.72
+INV-100750,2025-10-21,sales,software,DealRoom,8552.53
+INV-100755,2025-10-21,sales,entertainment,ClientGifts,9583.1
+INV-100758,2025-10-21,hr,training,LeadershipLab,2183.61
+INV-100737,2025-10-23,marketing,software,WebAnalytix,3648.89
+INV-100742,2025-10-23,marketing,travel,CityHotels,1833.54
+INV-100757,2025-10-23,hr,recruiting,TalentScout,6194.63
+INV-100731,2025-10-24,engineering,training,LearnFast,1958.72
+INV-100747,2025-10-24,sales,travel,CityHotels,9897.85
+INV-100749,2025-10-24,sales,software,DealRoom,7525.39
+INV-100776,2025-10-25,operations,office_supplies,SupplyStore,1388.38
+INV-100725,2025-10-26,engineering,hardware,LaptopWorld,22495.75
+INV-100735,2025-10-26,marketing,agencies,BrightCreative,11503.35
+INV-100754,2025-10-26,sales,events,ExpoHall,4337.97
+INV-100766,2025-10-26,finance,software,LedgerCloud,7114.17
+INV-100736,2025-10-27,marketing,agencies,BrightCreative,8918.13
+INV-100743,2025-10-27,marketing,travel,SkyTravel,561.7
+INV-100751,2025-10-27,sales,events,ExpoHall,3868.5
+INV-100765,2025-10-27,hr,benefits_admin,BenefitBridge,6016.75
+INV-100739,2025-10-28,marketing,software,MailBlast,1835.59
+INV-100740,2025-10-28,marketing,travel,SkyTravel,1922.42
+INV-100748,2025-10-28,sales,software,CRMCloud,7160.64
+INV-100773,2025-10-28,finance,consulting,TaxWise Advisors,3324.78
+INV-100777,2025-10-28,operations,office_supplies,SupplyStore,1948.66
+INV-100821,2025-11-01,hr,training,LeadershipLab,11628.48
+INV-100786,2025-11-02,engineering,contractors,ByteForce Consulting,32089.85
+INV-100795,2025-11-02,engineering,travel,SkyTravel,2825.81
+INV-100807,2025-11-02,sales,travel,RailEurope,9622.94
+INV-100838,2025-11-02,operations,utilities,NetConnect,10667.24
+INV-100842,2025-11-02,operations,logistics,FastFreight,5530.97
+INV-100790,2025-11-03,engineering,hardware,ServerParts Co,4989.57
+INV-100791,2025-11-03,engineering,hardware,LaptopWorld,6963.43
+INV-100796,2025-11-03,engineering,travel,CityHotels,2803.58
+INV-100813,2025-11-03,sales,events,ExpoHall,17902.68
+INV-100824,2025-11-03,hr,software,PeopleHQ,2861.67
+INV-100827,2025-11-03,hr,benefits_admin,BenefitBridge,5838.2
+INV-100835,2025-11-03,operations,facilities,OfficeSpace Ltd,30737.69
+INV-100800,2025-11-04,marketing,events,EventMakers,5033.5
+INV-100804,2025-11-04,marketing,software,MailBlast,4693.97
+INV-100811,2025-11-04,sales,software,CRMCloud,10514.75
+INV-100825,2025-11-04,hr,benefits_admin,BenefitBridge,4477.72
+INV-100840,2025-11-04,operations,logistics,FastFreight,7776.03
+INV-100841,2025-11-04,operations,logistics,FastFreight,5573.98
+INV-100789,2025-11-05,engineering,hardware,ServerParts Co,5166.01
+INV-100818,2025-11-05,hr,recruiting,TalentScout,7165.37
+INV-100823,2025-11-05,hr,software,PayrollPro,4766.41
+INV-100843,2025-11-05,operations,logistics,FastFreight,2173.14
+INV-100812,2025-11-06,sales,software,CRMCloud,4899.37
+INV-100832,2025-11-06,finance,consulting,TaxWise Advisors,10839.59
+INV-100814,2025-11-07,sales,entertainment,ClientGifts,3414.57
+INV-100805,2025-11-08,marketing,software,MailBlast,3763.16
+INV-100820,2025-11-08,hr,recruiting,JobBoard Plus,5481.55
+INV-100785,2025-11-09,engineering,contractors,ByteForce Consulting,38177.54
+INV-100802,2025-11-09,marketing,events,EventMakers,7217.21
+INV-100831,2025-11-09,finance,software,LedgerCloud,3500.55
+INV-100839,2025-11-09,operations,utilities,PowerGrid Energy,5443.58
+INV-100793,2025-11-10,engineering,travel,CityHotels,2614.99
+INV-100801,2025-11-11,marketing,events,ExpoHall,15105.62
+INV-100830,2025-11-11,finance,software,ExpenseEasy,6647.69
+INV-100798,2025-11-12,marketing,advertising,SearchAds Pro,68532.76
+INV-100783,2025-11-14,engineering,software,CodeHub,26358.99
+INV-100819,2025-11-14,hr,recruiting,TalentScout,6846.54
+INV-100828,2025-11-14,hr,benefits_admin,BenefitBridge,1416.13
+INV-100833,2025-11-15,operations,facilities,CleanCo,10160.09
+INV-100806,2025-11-16,marketing,travel,CityHotels,6330.39
+INV-100822,2025-11-16,hr,software,PeopleHQ,1985.09
+INV-100788,2025-11-17,engineering,contractors,Nearshore Devs,8847.25
+INV-100799,2025-11-17,marketing,advertising,SearchAds Pro,27658.86
+INV-100803,2025-11-17,marketing,agencies,Story & Co,32847.83
+INV-100784,2025-11-18,engineering,software,Monitorly,46667.53
+INV-100810,2025-11-19,sales,software,DealRoom,4224.0
+INV-100815,2025-11-19,sales,entertainment,ClientGifts,4876.68
+INV-100826,2025-11-21,hr,benefits_admin,BenefitBridge,2845.61
+INV-100794,2025-11-24,engineering,travel,SkyTravel,3202.82
+INV-100797,2025-11-24,engineering,training,LearnFast,5340.83
+INV-100816,2025-11-24,sales,entertainment,FineDining Group,1346.72
+INV-100787,2025-11-26,engineering,contractors,Nearshore Devs,7165.88
+INV-100792,2025-11-26,engineering,hardware,LaptopWorld,6111.1
+INV-100808,2025-11-26,sales,travel,RailEurope,29464.52
+INV-100817,2025-11-26,hr,recruiting,TalentScout,8794.66
+INV-100836,2025-11-26,operations,facilities,CleanCo,20651.0
+INV-100809,2025-11-27,sales,software,CRMCloud,4000.23
+INV-100829,2025-11-27,finance,software,ExpenseEasy,6204.17
+INV-100834,2025-11-28,operations,facilities,OfficeSpace Ltd,17685.06
+INV-100837,2025-11-28,operations,office_supplies,SupplyStore,7185.16
+INV-100846,2025-12-01,engineering,software,DevTools Inc,8927.71
+INV-100873,2025-12-01,sales,software,CRMCloud,8760.15
+INV-100861,2025-12-02,engineering,training,CertPro,1955.36
+INV-100889,2025-12-02,finance,software,ExpenseEasy,5077.54
+INV-100847,2025-12-04,engineering,contractors,ByteForce Consulting,26307.12
+INV-100898,2025-12-04,operations,logistics,ParcelGo,9181.05
+INV-100852,2025-12-05,engineering,hardware,LaptopWorld,4162.2
+INV-100884,2025-12-05,hr,software,PayrollPro,9401.26
+INV-100849,2025-12-06,engineering,contractors,Nearshore Devs,27296.98
+INV-100869,2025-12-06,marketing,software,WebAnalytix,2709.45
+INV-100867,2025-12-07,marketing,software,WebAnalytix,4074.46
+INV-100899,2025-12-07,operations,logistics,FastFreight,2933.24
+INV-100859,2025-12-08,engineering,training,LearnFast,2217.28
+INV-100864,2025-12-08,marketing,events,ExpoHall,30191.1
+INV-100870,2025-12-08,marketing,travel,SkyTravel,6386.99
+INV-100879,2025-12-08,sales,entertainment,FineDining Group,3402.32
+INV-100851,2025-12-09,engineering,hardware,ServerParts Co,9860.61
+INV-100863,2025-12-09,marketing,advertising,SearchAds Pro,21162.48
+INV-100894,2025-12-10,operations,facilities,OfficeSpace Ltd,22911.85
+INV-100872,2025-12-11,sales,software,CRMCloud,7179.7
+INV-100876,2025-12-11,sales,events,ExpoHall,3589.64
+INV-100877,2025-12-11,sales,events,EventMakers,7146.38
+INV-100883,2025-12-11,hr,training,LearnFast,12139.84
+INV-100895,2025-12-11,operations,facilities,CleanCo,10175.79
+INV-100857,2025-12-13,engineering,travel,CityHotels,2623.27
+INV-100875,2025-12-13,sales,events,EventMakers,7263.0
+INV-100880,2025-12-13,sales,entertainment,ClientGifts,2489.25
+INV-100890,2025-12-13,finance,consulting,TaxWise Advisors,6922.9
+INV-100896,2025-12-13,operations,office_supplies,SupplyStore,7395.25
+INV-100900,2025-12-14,operations,logistics,ParcelGo,8757.62
+INV-100848,2025-12-15,engineering,contractors,ByteForce Consulting,7610.35
+INV-100892,2025-12-15,operations,facilities,OfficeSpace Ltd,23640.79
+INV-100858,2025-12-16,engineering,travel,CityHotels,3107.28
+INV-100868,2025-12-18,marketing,software,WebAnalytix,2711.22
+INV-100878,2025-12-18,sales,entertainment,ClientGifts,2907.45
+INV-100891,2025-12-18,finance,consulting,TaxWise Advisors,4424.07
+INV-100844,2025-12-19,engineering,software,CodeHub,27857.06
+INV-100866,2025-12-19,marketing,agencies,BrightCreative,22842.78
+INV-100874,2025-12-19,sales,software,CRMCloud,8176.84
+INV-100882,2025-12-19,hr,recruiting,JobBoard Plus,27023.44
+INV-100853,2025-12-20,engineering,hardware,LaptopWorld,4630.09
+INV-100871,2025-12-20,sales,travel,SkyTravel,40401.85
+INV-100897,2025-12-20,operations,utilities,NetConnect,17882.1
+INV-100854,2025-12-21,engineering,hardware,ServerParts Co,4322.34
+INV-100856,2025-12-21,engineering,travel,SkyTravel,3732.06
+INV-100885,2025-12-21,hr,benefits_admin,BenefitBridge,7351.03
+INV-100862,2025-12-22,marketing,advertising,AdReach,82777.37
+INV-100901,2025-12-22,operations,logistics,ParcelGo,2869.81
+INV-100881,2025-12-24,sales,entertainment,ClientGifts,1096.92
+INV-100888,2025-12-24,finance,software,LedgerCloud,8238.49
+INV-100855,2025-12-26,engineering,travel,SkyTravel,2030.09
+INV-100860,2025-12-26,engineering,training,CertPro,1431.31
+INV-100865,2025-12-26,marketing,agencies,Story & Co,10840.34
+INV-100887,2025-12-26,finance,software,LedgerCloud,3778.85
+INV-100893,2025-12-26,operations,facilities,OfficeSpace Ltd,18603.51
+INV-100845,2025-12-27,engineering,software,DevTools Inc,35755.4
+INV-100850,2025-12-27,engineering,contractors,Nearshore Devs,26296.4
+INV-100886,2025-12-27,hr,benefits_admin,BenefitBridge,6984.13
+INV-100935,2026-01-01,sales,entertainment,ClientGifts,2026.22
+INV-100954,2026-01-01,finance,consulting,TaxWise Advisors,5168.16
+INV-100931,2026-01-02,sales,events,EventMakers,3526.45
+INV-100903,2026-01-03,engineering,contractors,Nearshore Devs,54379.26
+INV-100907,2026-01-03,engineering,travel,CityHotels,2237.76
+INV-100922,2026-01-03,marketing,travel,CityHotels,1554.08
+INV-100911,2026-01-04,marketing,advertising,AdReach,37953.3
+INV-100926,2026-01-04,sales,travel,CityHotels,3022.87
+INV-100918,2026-01-05,marketing,software,MailBlast,870.23
+INV-100927,2026-01-05,sales,travel,SkyTravel,12816.82
+INV-100908,2026-01-06,engineering,travel,CityHotels,2630.04
+INV-100949,2026-01-06,finance,software,ExpenseEasy,2594.85
+INV-100952,2026-01-06,finance,audit,Smith & Partners Audit,25990.45
+INV-100921,2026-01-07,marketing,software,MailBlast,2353.55
+INV-100932,2026-01-09,sales,events,ExpoHall,6494.57
+INV-100934,2026-01-09,sales,entertainment,ClientGifts,4153.79
+INV-100939,2026-01-09,hr,recruiting,JobBoard Plus,9313.12
+INV-100957,2026-01-09,operations,office_supplies,SupplyStore,2569.04
+INV-100961,2026-01-09,operations,logistics,ParcelGo,10919.21
+INV-100963,2026-01-09,operations,logistics,ParcelGo,5779.4
+INV-100937,2026-01-10,hr,recruiting,JobBoard Plus,8405.54
+INV-100946,2026-01-12,hr,benefits_admin,BenefitBridge,3992.85
+INV-100947,2026-01-12,finance,software,ExpenseEasy,5649.42
+INV-100909,2026-01-13,engineering,travel,CityHotels,3033.39
+INV-100943,2026-01-13,hr,software,PeopleHQ,2104.36
+INV-100951,2026-01-13,finance,audit,Smith & Partners Audit,27748.12
+INV-100919,2026-01-14,marketing,software,MailBlast,2764.09
+INV-100910,2026-01-15,engineering,training,CertPro,5513.75
+INV-100945,2026-01-15,hr,benefits_admin,BenefitBridge,9211.52
+INV-100958,2026-01-15,operations,office_supplies,SupplyStore,2374.11
+INV-100941,2026-01-16,hr,training,LeadershipLab,7137.72
+INV-100955,2026-01-16,finance,consulting,TaxWise Advisors,6715.29
+INV-100917,2026-01-17,marketing,agencies,BrightCreative,10289.57
+INV-100915,2026-01-18,marketing,events,ExpoHall,16603.11
+INV-100923,2026-01-18,marketing,travel,CityHotels,2772.09
+INV-100924,2026-01-18,marketing,travel,CityHotels,3012.02
+INV-100902,2026-01-19,engineering,software,Monitorly,67400.11
+INV-100928,2026-01-19,sales,travel,RailEurope,11210.67
+INV-100929,2026-01-19,sales,software,CRMCloud,23526.53
+INV-100930,2026-01-19,sales,events,ExpoHall,8189.7
+INV-100950,2026-01-19,finance,software,ExpenseEasy,1847.26
+INV-100940,2026-01-20,hr,recruiting,TalentScout,3399.26
+INV-100948,2026-01-20,finance,software,ExpenseEasy,6693.24
+INV-100956,2026-01-20,operations,facilities,CleanCo,83184.08
+INV-100905,2026-01-21,engineering,hardware,ServerParts Co,22103.64
+INV-100906,2026-01-22,engineering,travel,CityHotels,4594.65
+INV-100912,2026-01-22,marketing,advertising,SocialBoost,17437.53
+INV-100920,2026-01-22,marketing,software,WebAnalytix,2735.61
+INV-100959,2026-01-22,operations,office_supplies,SupplyStore,2259.76
+INV-100960,2026-01-22,operations,utilities,NetConnect,17649.94
+INV-100933,2026-01-24,sales,entertainment,ClientGifts,910.31
+INV-100938,2026-01-25,hr,recruiting,JobBoard Plus,7028.37
+INV-100944,2026-01-25,hr,software,PeopleHQ,7206.09
+INV-100913,2026-01-26,marketing,advertising,SearchAds Pro,44519.71
+INV-100925,2026-01-26,sales,travel,CityHotels,15902.12
+INV-100904,2026-01-27,engineering,contractors,Nearshore Devs,43548.64
+INV-100914,2026-01-27,marketing,events,ExpoHall,12021.68
+INV-100936,2026-01-27,sales,entertainment,ClientGifts,1668.19
+INV-100942,2026-01-27,hr,training,LearnFast,3892.3
+INV-100916,2026-01-28,marketing,agencies,BrightCreative,24944.71
+INV-100953,2026-01-28,finance,audit,Smith & Partners Audit,14183.68
+INV-100962,2026-01-28,operations,logistics,ParcelGo,6749.09
+INV-100989,2026-02-01,sales,travel,CityHotels,12648.55
+INV-101003,2026-02-02,hr,training,LearnFast,12234.68
+INV-101012,2026-02-02,operations,facilities,CleanCo,31272.08
+INV-101018,2026-02-02,operations,utilities,PowerGrid Energy,12021.57
+INV-100986,2026-02-03,marketing,travel,SkyTravel,2970.52
+INV-100993,2026-02-04,sales,software,DealRoom,17276.73
+INV-101004,2026-02-04,hr,software,PayrollPro,9611.12
+INV-100981,2026-02-05,marketing,agencies,Story & Co,18212.65
+INV-101014,2026-02-05,operations,office_supplies,SupplyStore,560.5
+INV-100985,2026-02-07,marketing,software,MailBlast,3131.23
+INV-100991,2026-02-07,sales,travel,SkyTravel,13701.33
+INV-101000,2026-02-07,sales,entertainment,FineDining Group,3181.59
+INV-101009,2026-02-07,operations,facilities,CleanCo,17239.27
+INV-100998,2026-02-08,sales,entertainment,FineDining Group,1105.17
+INV-101017,2026-02-09,operations,utilities,NetConnect,6706.23
+INV-100966,2026-02-10,engineering,contractors,Nearshore Devs,47238.27
+INV-100992,2026-02-10,sales,software,CRMCloud,6838.05
+INV-100994,2026-02-10,sales,events,ExpoHall,3419.07
+INV-101008,2026-02-10,finance,consulting,TaxWise Advisors,7224.73
+INV-101011,2026-02-10,operations,facilities,OfficeSpace Ltd,20021.93
+INV-100975,2026-02-12,marketing,advertising,SocialBoost,28158.12
+INV-101019,2026-02-12,operations,logistics,ParcelGo,24626.7
+INV-100965,2026-02-13,engineering,software,Monitorly,31926.79
+INV-100997,2026-02-13,sales,entertainment,FineDining Group,1591.22
+INV-101002,2026-02-13,hr,recruiting,JobBoard Plus,21949.78
+INV-100967,2026-02-14,engineering,contractors,Nearshore Devs,43860.18
+INV-100974,2026-02-14,marketing,advertising,SocialBoost,28086.66
+INV-100980,2026-02-14,marketing,agencies,Story & Co,4389.08
+INV-100996,2026-02-14,sales,events,EventMakers,4641.13
+INV-100984,2026-02-15,marketing,software,WebAnalytix,6230.76
+INV-100969,2026-02-16,engineering,travel,CityHotels,5874.87
+INV-100977,2026-02-16,marketing,events,EventMakers,5578.7
+INV-101005,2026-02-16,hr,benefits_admin,BenefitBridge,13945.58
+INV-100970,2026-02-17,engineering,travel,CityHotels,5556.68
+INV-100978,2026-02-17,marketing,events,EventMakers,8872.13
+INV-101007,2026-02-17,finance,consulting,TaxWise Advisors,4069.51
+INV-100968,2026-02-19,engineering,hardware,LaptopWorld,23032.35
+INV-100976,2026-02-20,marketing,events,EventMakers,8745.84
+INV-100987,2026-02-20,marketing,travel,CityHotels,4150.81
+INV-101006,2026-02-22,finance,software,LedgerCloud,16759.89
+INV-101010,2026-02-23,operations,facilities,CleanCo,17286.95
+INV-100971,2026-02-24,engineering,training,CertPro,2623.3
+INV-100972,2026-02-24,engineering,training,LearnFast,3563.62
+INV-100988,2026-02-24,sales,travel,CityHotels,11745.29
+INV-100995,2026-02-24,sales,events,ExpoHall,9537.87
+INV-100999,2026-02-24,sales,entertainment,FineDining Group,3266.6
+INV-101016,2026-02-24,operations,office_supplies,SupplyStore,3060.16
+INV-100983,2026-02-25,marketing,agencies,BrightCreative,6915.37
+INV-100990,2026-02-25,sales,travel,RailEurope,3821.62
+INV-101015,2026-02-25,operations,office_supplies,SupplyStore,2409.78
+INV-100964,2026-02-26,engineering,software,Monitorly,34919.87
+INV-101001,2026-02-26,hr,recruiting,TalentScout,7785.38
+INV-101013,2026-02-27,operations,office_supplies,SupplyStore,1466.95
+INV-100973,2026-02-28,marketing,advertising,SocialBoost,56833.66
+INV-100979,2026-02-28,marketing,events,ExpoHall,6519.15
+INV-100982,2026-02-28,marketing,agencies,BrightCreative,5828.2
+INV-101032,2026-03-02,marketing,events,EventMakers,15983.78
+INV-101039,2026-03-03,marketing,travel,CityHotels,3188.87
+INV-101042,2026-03-03,sales,travel,CityHotels,9233.18
+INV-101026,2026-03-04,engineering,travel,SkyTravel,1989.91
+INV-101044,2026-03-04,sales,software,DealRoom,6110.58
+INV-101052,2026-03-04,sales,entertainment,FineDining Group,2986.59
+INV-101059,2026-03-04,hr,software,PayrollPro,4272.15
+INV-101064,2026-03-04,finance,consulting,TaxWise Advisors,3487.3
+INV-101037,2026-03-05,marketing,software,MailBlast,5237.47
+INV-101029,2026-03-06,engineering,training,CertPro,5008.81
+INV-101066,2026-03-09,operations,facilities,CleanCo,20131.84
+INV-101070,2026-03-10,operations,utilities,NetConnect,6010.37
+INV-101023,2026-03-11,engineering,hardware,LaptopWorld,25120.43
+INV-101067,2026-03-11,operations,facilities,CleanCo,40614.06
+INV-101072,2026-03-11,operations,logistics,FastFreight,11235.41
+INV-101021,2026-03-12,engineering,contractors,Nearshore Devs,61093.09
+INV-101048,2026-03-12,sales,events,EventMakers,5263.57
+INV-101041,2026-03-13,sales,travel,SkyTravel,5468.41
+INV-101056,2026-03-13,hr,software,PeopleHQ,1160.3
+INV-101031,2026-03-14,marketing,events,ExpoHall,15866.64
+INV-101045,2026-03-14,sales,software,CRMCloud,4514.87
+INV-101047,2026-03-15,sales,events,ExpoHall,7526.73
+INV-101057,2026-03-15,hr,software,PeopleHQ,3064.97
+INV-101060,2026-03-15,hr,benefits_admin,BenefitBridge,13180.46
+INV-101028,2026-03-16,engineering,training,CertPro,1368.97
+INV-101038,2026-03-16,marketing,travel,SkyTravel,3361.73
+INV-101055,2026-03-16,hr,training,LearnFast,12225.99
+INV-101035,2026-03-17,marketing,agencies,BrightCreative,12350.93
+INV-101046,2026-03-18,sales,software,CRMCloud,10329.33
+INV-101054,2026-03-18,hr,recruiting,JobBoard Plus,22603.31
+INV-101062,2026-03-18,finance,software,ExpenseEasy,2720.38
+INV-101022,2026-03-20,engineering,contractors,Nearshore Devs,26218.34
+INV-101025,2026-03-21,engineering,travel,SkyTravel,1603.01
+INV-101036,2026-03-21,marketing,software,WebAnalytix,4135.17
+INV-101040,2026-03-21,sales,travel,CityHotels,25559.49
+INV-101053,2026-03-21,hr,recruiting,JobBoard Plus,8232.75
+INV-101034,2026-03-22,marketing,agencies,Story & Co,18204.43
+INV-101050,2026-03-22,sales,entertainment,ClientGifts,3372.67
+INV-101071,2026-03-22,operations,utilities,PowerGrid Energy,12356.41
+INV-101027,2026-03-23,engineering,travel,SkyTravel,3569.55
+INV-101051,2026-03-23,sales,entertainment,ClientGifts,3637.14
+INV-101058,2026-03-23,hr,software,PayrollPro,1464.89
+INV-101065,2026-03-23,operations,facilities,OfficeSpace Ltd,24244.81
+INV-101033,2026-03-24,marketing,agencies,BrightCreative,3618.63
+INV-101043,2026-03-24,sales,software,CRMCloud,2519.8
+INV-101061,2026-03-24,finance,software,LedgerCloud,15494.57
+INV-101068,2026-03-24,operations,office_supplies,SupplyStore,2090.74
+INV-101020,2026-03-25,engineering,software,DevTools Inc,70216.88
+INV-101073,2026-03-25,operations,logistics,ParcelGo,14274.83
+INV-101024,2026-03-26,engineering,travel,CityHotels,3948.83
+INV-101030,2026-03-27,marketing,advertising,SearchAds Pro,111348.26
+INV-101049,2026-03-27,sales,events,EventMakers,5900.61
+INV-101063,2026-03-27,finance,consulting,TaxWise Advisors,8323.4
+INV-101069,2026-03-27,operations,office_supplies,SupplyStore,4961.47
+INV-101076,2026-04-01,engineering,software,CodeHub,14074.97
+INV-101085,2026-04-01,engineering,travel,CityHotels,3871.35
+INV-101106,2026-04-01,sales,software,DealRoom,13528.65
+INV-101090,2026-04-02,marketing,advertising,SocialBoost,76227.82
+INV-101127,2026-04-02,finance,audit,Smith & Partners Audit,6001.85
+INV-101096,2026-04-03,marketing,agencies,Story & Co,10569.58
+INV-101133,2026-04-03,operations,utilities,NetConnect,18357.54
+INV-101108,2026-04-04,sales,events,EventMakers,8919.17
+INV-101111,2026-04-04,sales,entertainment,FineDining Group,5753.82
+INV-101077,2026-04-05,engineering,software,DevTools Inc,20664.13
+INV-101079,2026-04-05,engineering,contractors,ByteForce Consulting,66695.8
+INV-101113,2026-04-05,hr,recruiting,TalentScout,30604.92
+INV-101126,2026-04-05,finance,audit,Smith & Partners Audit,32898.33
+INV-101089,2026-04-06,engineering,training,LearnFast,1240.11
+INV-101097,2026-04-06,marketing,software,WebAnalytix,4056.34
+INV-101131,2026-04-07,operations,facilities,OfficeSpace Ltd,42990.77
+INV-101135,2026-04-07,operations,logistics,ParcelGo,4137.18
+INV-101091,2026-04-09,marketing,advertising,SearchAds Pro,26033.77
+INV-101105,2026-04-09,sales,software,DealRoom,7895.14
+INV-101114,2026-04-09,hr,training,LearnFast,3179.42
+INV-101116,2026-04-09,hr,training,LeadershipLab,5051.98
+INV-101078,2026-04-10,engineering,contractors,Nearshore Devs,31602.71
+INV-101088,2026-04-10,engineering,training,CertPro,1323.49
+INV-101100,2026-04-10,marketing,travel,SkyTravel,2975.0
+INV-101134,2026-04-10,operations,logistics,FastFreight,8551.06
+INV-101092,2026-04-11,marketing,events,ExpoHall,18207.98
+INV-101099,2026-04-11,marketing,travel,CityHotels,3733.32
+INV-101137,2026-04-11,operations,logistics,ParcelGo,3226.74
+INV-101120,2026-04-12,hr,software,PeopleHQ,2809.46
+INV-101121,2026-04-13,hr,benefits_admin,BenefitBridge,4633.13
+INV-101074,2026-04-14,engineering,software,DevTools Inc,16766.46
+INV-101083,2026-04-14,engineering,travel,CityHotels,5943.89
+INV-101080,2026-04-15,engineering,hardware,LaptopWorld,5845.35
+INV-101102,2026-04-15,sales,travel,SkyTravel,12726.16
+INV-101095,2026-04-16,marketing,agencies,Story & Co,12468.62
+INV-101123,2026-04-16,hr,benefits_admin,BenefitBridge,6472.01
+INV-101136,2026-04-16,operations,logistics,ParcelGo,6470.03
+INV-101075,2026-04-17,engineering,software,DevTools Inc,20978.44
+INV-101107,2026-04-17,sales,software,DealRoom,4255.67
+INV-101084,2026-04-18,engineering,travel,SkyTravel,1644.04
+INV-101098,2026-04-18,marketing,software,WebAnalytix,5551.72
+INV-101112,2026-04-18,sales,entertainment,ClientGifts,3372.54
+INV-101132,2026-04-18,operations,office_supplies,SupplyStore,6810.99
+INV-101115,2026-04-19,hr,training,LearnFast,3652.04
+INV-101128,2026-04-19,finance,audit,Smith & Partners Audit,30549.76
+INV-101081,2026-04-20,engineering,hardware,LaptopWorld,10723.76
+INV-101104,2026-04-20,sales,travel,SkyTravel,2595.78
+INV-101103,2026-04-21,sales,travel,RailEurope,14683.46
+INV-101110,2026-04-21,sales,events,EventMakers,5797.56
+INV-101117,2026-04-21,hr,software,PeopleHQ,2420.22
+INV-101125,2026-04-21,finance,software,LedgerCloud,9251.25
+INV-101101,2026-04-22,sales,travel,CityHotels,14876.12
+INV-101093,2026-04-23,marketing,events,EventMakers,10567.69
+INV-101119,2026-04-23,hr,software,PeopleHQ,3338.84
+INV-101082,2026-04-24,engineering,hardware,ServerParts Co,8083.38
+INV-101129,2026-04-24,finance,consulting,TaxWise Advisors,12032.58
+INV-101086,2026-04-25,engineering,training,LearnFast,1506.89
+INV-101087,2026-04-25,engineering,training,LearnFast,1626.13
+INV-101109,2026-04-25,sales,events,EventMakers,3187.6
+INV-101118,2026-04-25,hr,software,PeopleHQ,829.23
+INV-101094,2026-04-27,marketing,agencies,Story & Co,10204.79
+INV-101122,2026-04-27,hr,benefits_admin,BenefitBridge,2765.96
+INV-101130,2026-04-27,operations,facilities,CleanCo,36877.73
+INV-101124,2026-04-28,finance,software,ExpenseEasy,8787.04
+INV-101146,2026-05-01,engineering,travel,SkyTravel,11623.43
+INV-101185,2026-05-01,finance,software,ExpenseEasy,10139.7
+INV-101141,2026-05-05,engineering,contractors,Nearshore Devs,44971.81
+INV-101171,2026-05-05,sales,events,EventMakers,4647.26
+INV-101172,2026-05-05,sales,events,EventMakers,4979.11
+INV-101139,2026-05-06,engineering,software,DevTools Inc,31716.76
+INV-101152,2026-05-06,marketing,events,EventMakers,22860.09
+INV-101173,2026-05-06,sales,entertainment,ClientGifts,3679.8
+INV-101176,2026-05-06,hr,recruiting,TalentScout,5629.6
+INV-101178,2026-05-06,hr,training,LeadershipLab,6587.77
+INV-101183,2026-05-06,hr,software,PayrollPro,4308.64
+INV-101150,2026-05-08,engineering,training,CertPro,1405.11
+INV-101155,2026-05-08,marketing,agencies,BrightCreative,3261.13
+INV-101170,2026-05-08,sales,events,EventMakers,3990.42
+INV-101140,2026-05-09,engineering,contractors,Nearshore Devs,48788.5
+INV-101154,2026-05-09,marketing,agencies,Story & Co,15452.12
+INV-101189,2026-05-09,finance,consulting,TaxWise Advisors,3690.7
+INV-101195,2026-05-09,operations,logistics,ParcelGo,4949.9
+INV-101138,2026-05-11,engineering,software,CodeHub,43013.48
+INV-101149,2026-05-12,engineering,training,CertPro,721.92
+INV-101161,2026-05-13,marketing,software,WebAnalytix,1163.74
+INV-101162,2026-05-13,marketing,travel,SkyTravel,7092.43
+INV-101193,2026-05-13,operations,utilities,PowerGrid Energy,18347.75
+INV-101168,2026-05-14,sales,software,DealRoom,9552.57
+INV-101169,2026-05-14,sales,events,EventMakers,5143.48
+INV-101188,2026-05-14,finance,consulting,TaxWise Advisors,3738.23
+INV-101165,2026-05-15,sales,travel,SkyTravel,16471.43
+INV-101179,2026-05-15,hr,training,LearnFast,5688.23
+INV-101175,2026-05-16,hr,recruiting,JobBoard Plus,15503.32
+INV-101151,2026-05-17,marketing,advertising,AdReach,102360.52
+INV-101157,2026-05-17,marketing,agencies,Story & Co,5856.39
+INV-101158,2026-05-17,marketing,software,WebAnalytix,4150.85
+INV-101164,2026-05-17,sales,travel,SkyTravel,9043.87
+INV-101186,2026-05-17,finance,software,ExpenseEasy,6802.4
+INV-101145,2026-05-18,engineering,hardware,LaptopWorld,3025.02
+INV-101147,2026-05-18,engineering,training,CertPro,2956.55
+INV-101184,2026-05-18,hr,benefits_admin,BenefitBridge,15428.87
+INV-101191,2026-05-18,operations,facilities,CleanCo,90116.42
+INV-101153,2026-05-19,marketing,events,EventMakers,8128.77
+INV-101160,2026-05-19,marketing,software,MailBlast,3256.52
+INV-101187,2026-05-19,finance,consulting,TaxWise Advisors,1601.83
+INV-101194,2026-05-19,operations,logistics,ParcelGo,9830.02
+INV-101196,2026-05-19,operations,logistics,ParcelGo,10108.15
+INV-101163,2026-05-20,sales,travel,SkyTravel,16879.28
+INV-101174,2026-05-20,sales,entertainment,FineDining Group,6589.39
+INV-101182,2026-05-20,hr,software,PeopleHQ,2806.99
+INV-101142,2026-05-21,engineering,hardware,LaptopWorld,6321.29
+INV-101148,2026-05-21,engineering,training,LearnFast,1259.13
+INV-101156,2026-05-22,marketing,agencies,BrightCreative,13041.71
+INV-101167,2026-05-22,sales,software,CRMCloud,6573.8
+INV-101180,2026-05-22,hr,software,PayrollPro,1290.31
+INV-101166,2026-05-23,sales,software,CRMCloud,6991.97
+INV-101190,2026-05-25,finance,consulting,TaxWise Advisors,2167.81
+INV-101192,2026-05-26,operations,office_supplies,SupplyStore,6967.76
+INV-101143,2026-05-27,engineering,hardware,ServerParts Co,9547.86
+INV-101159,2026-05-27,marketing,software,WebAnalytix,920.72
+INV-101177,2026-05-27,hr,recruiting,JobBoard Plus,10898.92
+INV-101181,2026-05-27,hr,software,PeopleHQ,841.12
+INV-101144,2026-05-28,engineering,hardware,LaptopWorld,6728.9
+INV-101215,2026-06-01,marketing,software,MailBlast,4729.12
+INV-101245,2026-06-01,finance,consulting,TaxWise Advisors,2481.65
+INV-101242,2026-06-02,finance,software,ExpenseEasy,6820.35
+INV-101206,2026-06-03,engineering,travel,SkyTravel,5839.17
+INV-101214,2026-06-03,marketing,agencies,Story & Co,35784.21
+INV-101216,2026-06-03,marketing,software,WebAnalytix,3292.37
+INV-101231,2026-06-03,sales,entertainment,FineDining Group,1827.98
+INV-101202,2026-06-04,engineering,contractors,ByteForce Consulting,28305.79
+INV-101243,2026-06-04,finance,consulting,TaxWise Advisors,3931.16
+INV-101237,2026-06-05,hr,training,LearnFast,9139.36
+INV-101210,2026-06-07,marketing,events,EventMakers,2113.04
+INV-101233,2026-06-07,hr,recruiting,JobBoard Plus,4636.93
+INV-101249,2026-06-07,operations,office_supplies,SupplyStore,2942.77
+INV-101253,2026-06-07,operations,logistics,FastFreight,10534.28
+INV-101235,2026-06-08,hr,recruiting,TalentScout,13691.55
+INV-101241,2026-06-08,finance,software,LedgerCloud,7238.29
+INV-101199,2026-06-09,engineering,software,CodeHub,22666.51
+INV-101207,2026-06-09,engineering,travel,SkyTravel,6956.95
+INV-101219,2026-06-09,marketing,travel,SkyTravel,3701.74
+INV-101221,2026-06-09,sales,travel,RailEurope,14823.3
+INV-101223,2026-06-09,sales,travel,RailEurope,19581.35
+INV-101227,2026-06-09,sales,software,CRMCloud,7289.78
+INV-101240,2026-06-09,finance,software,ExpenseEasy,4221.78
+INV-101228,2026-06-11,sales,events,ExpoHall,12050.96
+INV-101244,2026-06-11,finance,consulting,TaxWise Advisors,5868.68
+INV-101197,2026-06-12,engineering,software,Monitorly,22002.58
+INV-101229,2026-06-12,sales,events,EventMakers,5908.31
+INV-101239,2026-06-12,hr,benefits_admin,BenefitBridge,14908.95
+INV-101247,2026-06-12,operations,office_supplies,SupplyStore,1582.12
+INV-101208,2026-06-13,engineering,training,CertPro,5974.87
+INV-101218,2026-06-13,marketing,travel,SkyTravel,1356.8
+INV-101220,2026-06-14,marketing,travel,SkyTravel,2083.94
+INV-101201,2026-06-15,engineering,contractors,ByteForce Consulting,25107.19
+INV-101224,2026-06-15,sales,software,DealRoom,4790.86
+INV-101226,2026-06-16,sales,software,CRMCloud,6010.63
+INV-101232,2026-06-16,sales,entertainment,ClientGifts,5450.68
+INV-101248,2026-06-16,operations,office_supplies,SupplyStore,2429.78
+INV-101203,2026-06-17,engineering,contractors,Nearshore Devs,23054.7
+INV-101198,2026-06-18,engineering,software,CodeHub,14128.79
+INV-101200,2026-06-19,engineering,software,CodeHub,15724.07
+INV-101225,2026-06-19,sales,software,CRMCloud,6089.06
+INV-101250,2026-06-19,operations,utilities,PowerGrid Energy,5876.83
+INV-101251,2026-06-19,operations,utilities,PowerGrid Energy,6246.19
+INV-101212,2026-06-20,marketing,events,EventMakers,11339.43
+INV-101246,2026-06-20,operations,facilities,CleanCo,83765.55
+INV-101205,2026-06-21,engineering,hardware,LaptopWorld,25578.52
+INV-101213,2026-06-22,marketing,events,EventMakers,7201.76
+INV-101238,2026-06-22,hr,software,PayrollPro,9167.83
+INV-101217,2026-06-24,marketing,software,WebAnalytix,2176.84
+INV-101234,2026-06-24,hr,recruiting,TalentScout,11461.43
+INV-101204,2026-06-26,engineering,contractors,Nearshore Devs,25430.01
+INV-101211,2026-06-26,marketing,events,EventMakers,10535.26
+INV-101254,2026-06-26,operations,logistics,FastFreight,14731.72
+INV-101209,2026-06-27,marketing,advertising,AdReach,113535.17
+INV-101222,2026-06-27,sales,travel,RailEurope,8702.62
+INV-101230,2026-06-27,sales,entertainment,ClientGifts,2796.51
+INV-101236,2026-06-27,hr,training,LeadershipLab,3790.25
+INV-101252,2026-06-27,operations,utilities,PowerGrid Energy,6767.61
+INV-101325,2026-07-01,operations,utilities,PowerGrid Energy,3853.99
+INV-101282,2026-07-02,marketing,travel,CityHotels,1365.34
+INV-101277,2026-07-03,marketing,software,MailBlast,2720.51
+INV-101279,2026-07-03,marketing,software,WebAnalytix,2170.1
+INV-101314,2026-07-03,finance,software,ExpenseEasy,2370.41
+INV-101266,2026-07-05,engineering,training,LearnFast,2345.12
+INV-101275,2026-07-05,marketing,events,EventMakers,9027.55
+INV-101292,2026-07-05,sales,events,ExpoHall,1978.01
+INV-101308,2026-07-05,hr,software,PayrollPro,1489.79
+INV-101312,2026-07-05,finance,software,LedgerCloud,7587.18
+INV-101273,2026-07-06,marketing,events,EventMakers,13159.04
+INV-101281,2026-07-06,marketing,travel,SkyTravel,2690.27
+INV-101285,2026-07-06,sales,travel,RailEurope,17834.62
+INV-101306,2026-07-06,hr,software,PeopleHQ,2314.3
+INV-101315,2026-07-06,finance,software,LedgerCloud,8040.87
+INV-101298,2026-07-07,sales,entertainment,ClientGifts,2403.63
+INV-101319,2026-07-07,finance,consulting,TaxWise Advisors,11730.75
+INV-101323,2026-07-07,operations,office_supplies,SupplyStore,7037.91
+INV-101318,2026-07-08,finance,audit,Smith & Partners Audit,10692.55
+INV-101270,2026-07-09,marketing,advertising,SearchAds Pro,55508.54
+INV-101272,2026-07-09,marketing,advertising,SocialBoost,63692.98
+INV-101278,2026-07-09,marketing,software,MailBlast,822.82
+INV-101300,2026-07-09,hr,recruiting,TalentScout,4779.59
+INV-101313,2026-07-09,finance,software,ExpenseEasy,1960.27
+INV-101321,2026-07-09,operations,facilities,CleanCo,12541.01
+INV-101280,2026-07-10,marketing,software,MailBlast,3507.7
+INV-101293,2026-07-10,sales,events,ExpoHall,6795.0
+INV-101295,2026-07-10,sales,entertainment,FineDining Group,4372.94
+INV-101303,2026-07-10,hr,training,LearnFast,3559.73
+INV-101307,2026-07-10,hr,software,PayrollPro,1309.34
+INV-101259,2026-07-11,engineering,hardware,ServerParts Co,7189.03
+INV-101260,2026-07-12,engineering,hardware,ServerParts Co,8818.27
+INV-101264,2026-07-12,engineering,travel,CityHotels,4736.77
+INV-101291,2026-07-12,sales,software,DealRoom,5259.78
+INV-101257,2026-07-13,engineering,contractors,ByteForce Consulting,23674.23
+INV-101276,2026-07-13,marketing,agencies,BrightCreative,37930.2
+INV-101299,2026-07-13,hr,recruiting,TalentScout,7825.24
+INV-101317,2026-07-13,finance,audit,Smith & Partners Audit,34148.91
+INV-101268,2026-07-14,engineering,training,CertPro,1047.1
+INV-101301,2026-07-14,hr,recruiting,TalentScout,12329.79
+INV-101310,2026-07-14,hr,benefits_admin,BenefitBridge,4810.39
+INV-101290,2026-07-15,sales,software,DealRoom,4899.23
+INV-101255,2026-07-16,engineering,software,DevTools Inc,73623.93
+INV-101328,2026-07-16,operations,logistics,FastFreight,24140.68
+INV-101302,2026-07-17,hr,recruiting,JobBoard Plus,7759.07
+INV-101261,2026-07-18,engineering,hardware,ServerParts Co,6905.48
+INV-101288,2026-07-18,sales,software,CRMCloud,6954.42
+INV-101294,2026-07-18,sales,events,EventMakers,9002.44
+INV-101297,2026-07-18,sales,entertainment,ClientGifts,797.35
+INV-101256,2026-07-19,engineering,contractors,ByteForce Consulting,46650.81
+INV-101262,2026-07-19,engineering,travel,SkyTravel,1308.23
+INV-101326,2026-07-19,operations,utilities,NetConnect,4994.79
+INV-101286,2026-07-20,sales,travel,CityHotels,11376.6
+INV-101305,2026-07-20,hr,training,LeadershipLab,2221.01
+INV-101267,2026-07-21,engineering,training,CertPro,1250.59
+INV-101271,2026-07-21,marketing,advertising,SocialBoost,67001.3
+INV-101287,2026-07-21,sales,travel,RailEurope,15529.05
+INV-101304,2026-07-21,hr,training,LeadershipLab,6118.6
+INV-101322,2026-07-21,operations,facilities,CleanCo,32461.4
+INV-101265,2026-07-22,engineering,travel,CityHotels,1624.75
+INV-101258,2026-07-23,engineering,contractors,ByteForce Consulting,36083.61
+INV-101284,2026-07-23,sales,travel,RailEurope,28295.71
+INV-101327,2026-07-23,operations,utilities,PowerGrid Energy,3353.46
+INV-101309,2026-07-24,hr,software,PeopleHQ,4386.26
+INV-101320,2026-07-24,operations,facilities,OfficeSpace Ltd,39734.61
+INV-101263,2026-07-25,engineering,travel,CityHotels,4346.84
+INV-101316,2026-07-25,finance,audit,Smith & Partners Audit,33783.55
+INV-101289,2026-07-26,sales,software,CRMCloud,8070.15
+INV-101296,2026-07-26,sales,entertainment,FineDining Group,2581.42
+INV-101311,2026-07-26,hr,benefits_admin,BenefitBridge,9346.09
+INV-101324,2026-07-26,operations,utilities,PowerGrid Energy,5502.69
+INV-101269,2026-07-28,engineering,training,LearnFast,1790.02
+INV-101274,2026-07-28,marketing,events,EventMakers,10008.3
+INV-101283,2026-07-28,marketing,travel,CityHotels,3039.88
+INV-101340,2026-08-01,marketing,advertising,SearchAds Pro,20337.89
+INV-101352,2026-08-01,marketing,software,MailBlast,2823.1
+INV-101329,2026-08-02,engineering,software,CodeHub,27582.94
+INV-101380,2026-08-02,finance,consulting,TaxWise Advisors,4315.26
+INV-101385,2026-08-02,operations,facilities,CleanCo,28590.63
+INV-101337,2026-08-03,engineering,training,LearnFast,1073.65
+INV-101358,2026-08-03,sales,travel,SkyTravel,18009.49
+INV-101377,2026-08-03,finance,software,ExpenseEasy,4413.38
+INV-101381,2026-08-03,finance,consulting,TaxWise Advisors,3742.63
+INV-101391,2026-08-03,operations,logistics,ParcelGo,13905.45
+INV-101346,2026-08-04,marketing,events,EventMakers,11999.52
+INV-101348,2026-08-04,marketing,agencies,Story & Co,21489.72
+INV-101362,2026-08-04,sales,entertainment,FineDining Group,3776.42
+INV-101379,2026-08-04,finance,consulting,TaxWise Advisors,1568.84
+INV-101387,2026-08-05,operations,office_supplies,SupplyStore,2682.01
+INV-101349,2026-08-07,marketing,agencies,BrightCreative,13125.99
+INV-101343,2026-08-08,marketing,advertising,SocialBoost,39064.17
+INV-101359,2026-08-08,sales,software,DealRoom,26728.88
+INV-101375,2026-08-08,finance,software,ExpenseEasy,4324.45
+INV-101336,2026-08-09,engineering,training,LearnFast,1082.39
+INV-101344,2026-08-10,marketing,events,ExpoHall,4844.24
+INV-101389,2026-08-10,operations,utilities,NetConnect,20077.88
+INV-101372,2026-08-11,hr,benefits_admin,BenefitBridge,1713.45
+INV-101334,2026-08-12,engineering,hardware,LaptopWorld,25823.13
+INV-101350,2026-08-12,marketing,software,MailBlast,2687.19
+INV-101365,2026-08-12,hr,recruiting,JobBoard Plus,14900.47
+INV-101369,2026-08-12,hr,training,LeadershipLab,3652.78
+INV-101368,2026-08-13,hr,training,LeadershipLab,2487.83
+INV-101390,2026-08-13,operations,logistics,ParcelGo,5092.96
+INV-101345,2026-08-14,marketing,events,ExpoHall,10974.31
+INV-101335,2026-08-15,engineering,travel,CityHotels,11950.66
+INV-101338,2026-08-15,engineering,training,CertPro,1520.84
+INV-101370,2026-08-15,hr,training,LeadershipLab,3189.39
+INV-101347,2026-08-17,marketing,events,EventMakers,4400.18
+INV-101355,2026-08-17,sales,travel,SkyTravel,22530.81
+INV-101386,2026-08-17,operations,facilities,OfficeSpace Ltd,11404.26
+INV-101392,2026-08-17,operations,logistics,ParcelGo,4493.91
+INV-101332,2026-08-18,engineering,contractors,Nearshore Devs,59512.48
+INV-101360,2026-08-18,sales,events,ExpoHall,7125.12
+INV-101364,2026-08-18,sales,entertainment,ClientGifts,2707.97
+INV-101366,2026-08-18,hr,recruiting,JobBoard Plus,16240.79
+INV-101374,2026-08-18,hr,benefits_admin,BenefitBridge,3440.88
+INV-101367,2026-08-19,hr,training,LearnFast,3803.95
+INV-101378,2026-08-19,finance,software,LedgerCloud,6087.21
+INV-101351,2026-08-20,marketing,software,MailBlast,2273.42
+INV-101371,2026-08-20,hr,software,PeopleHQ,9161.42
+INV-101330,2026-08-21,engineering,software,DevTools Inc,29195.81
+INV-101353,2026-08-21,marketing,software,WebAnalytix,1428.09
+INV-101354,2026-08-21,marketing,travel,SkyTravel,7980.21
+INV-101383,2026-08-21,operations,facilities,OfficeSpace Ltd,16476.88
+INV-101384,2026-08-21,operations,facilities,CleanCo,28538.37
+INV-101388,2026-08-22,operations,office_supplies,SupplyStore,4570.38
+INV-101331,2026-08-23,engineering,software,Monitorly,20126.1
+INV-101356,2026-08-24,sales,travel,SkyTravel,21918.46
+INV-101361,2026-08-24,sales,events,EventMakers,10617.93
+INV-101342,2026-08-25,marketing,advertising,SearchAds Pro,58671.45
+INV-101373,2026-08-25,hr,benefits_admin,BenefitBridge,9824.34
+INV-101382,2026-08-25,finance,consulting,TaxWise Advisors,3265.7
+INV-101333,2026-08-26,engineering,contractors,Nearshore Devs,44708.54
+INV-101363,2026-08-26,sales,entertainment,FineDining Group,3897.59
+INV-101376,2026-08-26,finance,software,ExpenseEasy,2633.7
+INV-101339,2026-08-27,engineering,training,CertPro,2589.25
+INV-101357,2026-08-27,sales,travel,CityHotels,5694.28
+INV-101341,2026-08-28,marketing,advertising,SocialBoost,84912.79
+INV-101397,2026-09-01,engineering,hardware,ServerParts Co,5914.38
+INV-101403,2026-09-01,engineering,training,CertPro,3083.84
+INV-101435,2026-09-01,hr,benefits_admin,BenefitBridge,5150.34
+INV-101417,2026-09-02,sales,travel,SkyTravel,10037.47
+INV-101441,2026-09-02,finance,consulting,TaxWise Advisors,4322.43
+INV-101432,2026-09-03,hr,training,LearnFast,5865.08
+INV-101402,2026-09-04,engineering,travel,SkyTravel,7339.6
+INV-101408,2026-09-05,marketing,advertising,SearchAds Pro,44923.13
+INV-101439,2026-09-05,finance,consulting,TaxWise Advisors,3746.82
+INV-101398,2026-09-06,engineering,hardware,ServerParts Co,5200.79
+INV-101431,2026-09-06,hr,training,LeadershipLab,6565.87
+INV-101443,2026-09-06,operations,facilities,CleanCo,18901.05
+INV-101393,2026-09-07,engineering,software,CodeHub,46103.01
+INV-101440,2026-09-07,finance,consulting,TaxWise Advisors,2357.98
+INV-101413,2026-09-08,marketing,travel,CityHotels,721.29
+INV-101451,2026-09-08,operations,utilities,NetConnect,19844.1
+INV-101423,2026-09-09,sales,events,EventMakers,19999.99
+INV-101419,2026-09-10,sales,software,CRMCloud,8881.15
+INV-101430,2026-09-10,hr,recruiting,TalentScout,15571.43
+INV-101434,2026-09-10,hr,software,PayrollPro,4871.28
+INV-101447,2026-09-11,operations,office_supplies,SupplyStore,2051.07
+INV-101394,2026-09-13,engineering,software,Monitorly,32631.5
+INV-101395,2026-09-14,engineering,contractors,Nearshore Devs,49520.2
+INV-101425,2026-09-14,sales,entertainment,FineDining Group,946.53
+INV-101427,2026-09-14,sales,entertainment,ClientGifts,3817.12
+INV-101433,2026-09-14,hr,software,PayrollPro,4677.75
+INV-101415,2026-09-15,sales,travel,RailEurope,27710.2
+INV-101450,2026-09-15,operations,office_supplies,SupplyStore,1968.01
+INV-101405,2026-09-17,marketing,advertising,SocialBoost,24780.85
+INV-101414,2026-09-17,marketing,travel,SkyTravel,3514.34
+INV-101418,2026-09-17,sales,travel,CityHotels,18199.92
+INV-101420,2026-09-17,sales,software,DealRoom,2053.59
+INV-101449,2026-09-17,operations,office_supplies,SupplyStore,3171.65
+INV-101452,2026-09-17,operations,logistics,FastFreight,27089.67
+INV-101406,2026-09-18,marketing,advertising,SocialBoost,45502.54
+INV-101426,2026-09-19,sales,entertainment,FineDining Group,1914.82
+INV-101428,2026-09-19,hr,recruiting,TalentScout,11857.85
+INV-101399,2026-09-20,engineering,hardware,ServerParts Co,4939.28
+INV-101400,2026-09-20,engineering,hardware,LaptopWorld,7530.05
+INV-101407,2026-09-20,marketing,advertising,SearchAds Pro,82103.52
+INV-101424,2026-09-20,sales,entertainment,FineDining Group,2818.37
+INV-101436,2026-09-20,hr,benefits_admin,BenefitBridge,5676.8
+INV-101437,2026-09-20,hr,benefits_admin,BenefitBridge,4851.66
+INV-101448,2026-09-20,operations,office_supplies,SupplyStore,820.02
+INV-101412,2026-09-21,marketing,travel,CityHotels,3504.04
+INV-101422,2026-09-21,sales,software,DealRoom,5222.83
+INV-101396,2026-09-22,engineering,contractors,ByteForce Consulting,52200.67
+INV-101409,2026-09-22,marketing,events,EventMakers,32428.55
+INV-101411,2026-09-22,marketing,software,WebAnalytix,9338.14
+INV-101404,2026-09-23,engineering,training,LearnFast,2943.55
+INV-101416,2026-09-23,sales,travel,SkyTravel,19002.82
+INV-101438,2026-09-23,finance,software,ExpenseEasy,18045.56
+INV-101445,2026-09-23,operations,facilities,CleanCo,18018.93
+INV-101401,2026-09-25,engineering,travel,SkyTravel,5112.27
+INV-101442,2026-09-25,finance,consulting,TaxWise Advisors,2840.64
+INV-101410,2026-09-26,marketing,agencies,Story & Co,36239.22
+INV-101421,2026-09-26,sales,software,CRMCloud,8316.15
+INV-101429,2026-09-28,hr,recruiting,TalentScout,6060.21
+INV-101444,2026-09-28,operations,facilities,CleanCo,38975.4
+INV-101446,2026-09-28,operations,facilities,CleanCo,18096.25
