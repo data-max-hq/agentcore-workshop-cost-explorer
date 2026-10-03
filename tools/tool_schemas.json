@@ -1,0 +1,42 @@
+[
+  {
+    "name": "describe_tables",
+    "description": "List the tables in the spend database and their columns. Call this first to learn what data is available before writing SQL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "run_query",
+    "description": "Run one read-only SQL SELECT query (Amazon Athena / Trino SQL) against the spend database and return up to 200 rows. Tables: department_spend (invoices per department), budgets (quarterly budget per department, fiscal_quarter like '2026-Q3'), aws_cost_export (daily AWS costs per account and service). Aggregate in SQL instead of fetching raw rows.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "sql": {
+          "type": "string",
+          "description": "A single SELECT query, without a trailing semicolon."
+        }
+      },
+      "required": ["sql"]
+    }
+  },
+  {
+    "name": "create_pdf_report",
+    "description": "Create a PDF report, save it to S3 and return a download link valid for 60 minutes. Use only when the user asks for a report.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Report title."
+        },
+        "content": {
+          "type": "string",
+          "description": "Report body in simple markdown: '# ' or '## ' headings, '- ' bullet points, '|' table rows, plain text paragraphs."
+        }
+      },
+      "required": ["title", "content"]
+    }
+  }
+]
