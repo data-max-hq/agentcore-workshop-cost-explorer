@@ -9,7 +9,7 @@
   },
   {
     "name": "run_query",
-    "description": "Run one read-only SQL SELECT query (Amazon Athena / Trino SQL) against the spend database and return up to 200 rows. Tables: department_spend (invoices per department), budgets (quarterly budget per department, fiscal_quarter like '2026-Q3'), aws_cost_export (daily AWS costs per account and service). Aggregate in SQL instead of fetching raw rows.",
+    "description": "Run one read-only SQL SELECT query (Amazon Athena / Trino SQL) against the spend database and return up to 200 rows. Tables: department_spend (invoices per department), budgets (quarterly budget per department, fiscal_quarter like '2026-Q3'), aws_cost_export (daily AWS costs per account and service). Department, category and account names are lowercase (department = 'marketing'). Write dates as DATE '2026-07-01'. Untagged AWS costs have resource_tags_user_department = '' (never NULL). Aggregate and ROUND money in SQL instead of fetching raw rows.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -23,7 +23,7 @@
   },
   {
     "name": "create_pdf_report",
-    "description": "Create a PDF report, save it to S3 and return a download link valid for 60 minutes. Use only when the user asks for a report.",
+    "description": "Create a PDF report with headings, tables and bar charts, save it to S3 and return a download link valid for 60 minutes. Use only when the user asks for a report.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -33,7 +33,7 @@
         },
         "content": {
           "type": "string",
-          "description": "Report body in simple markdown: '# ' or '## ' headings, '- ' bullet points, '|' table rows, plain text paragraphs."
+          "description": "Report body in simple markdown: '#', '##' or '###' headings, '- ' or '1. ' list items, plain text paragraphs, and tables as '| a | b |' rows where the first row is the header. Add a bar chart as a fenced block with an optional title line and one 'label: value' line per bar; the value is shown as written:\n```chart\ntitle: Q3 2026 spend by department (USD)\nmarketing: 842,712\nsales: 378,078\n```\nUse plain text; emoji are removed."
         }
       },
       "required": ["title", "content"]
