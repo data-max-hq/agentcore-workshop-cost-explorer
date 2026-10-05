@@ -77,12 +77,12 @@ The agent's tools (query the data, describe the tables, create a PDF report) run
 
 1. Open **Lambda** → **Create function** → **Author from scratch**.
 2. Name it `spend-agent-tools`, choose runtime **Python 3.14** → **Create function**.
-3. In the **Code** tab, replace everything in `lambda_function.py` with the contents of [`tools/lambda_function.py`](tools/lambda_function.py) → **Deploy**.
+3. In the **Code** tab, replace everything in `lambda_function.py` with the contents of [`tools/lambda_function.py`](../tools/lambda_function.py) → **Deploy**.
 4. **Configuration** → **General configuration** → **Edit** → set **Timeout** to **1 min** → **Save**.
 5. **Configuration** → **Environment variables** → **Edit** → **Add environment variable**: key `BUCKET`, value = your bucket name → **Save**.
 6. Give the function access to the data:
    - **Configuration** → **Permissions** → click the role name (opens IAM) → **Add permissions** → **Create inline policy** → **JSON**.
-   - Delete the example content and paste the contents of [`tools/lambda_policy.json`](tools/lambda_policy.json).
+   - Delete the example content and paste the contents of [`tools/lambda_policy.json`](../tools/lambda_policy.json).
    - ⚠️ Replace `BUCKET_NAME` with the name of your bucket.
    - **Next** → name it `spend-agent-tools` → **Create policy**.
 7. Test the function:
@@ -117,14 +117,14 @@ The Gateway makes the Lambda's tools available to the agent.
    - Target name: `spend-tools`
    - Passthrough: leave **Do not use passthrough – default aggregated**
    - Target type: **Lambda ARN** → paste the Function ARN from step 1.
-   - Tool schema: **inline** → paste the contents of [`tools/tool_schemas.json`](tools/tool_schemas.json).
+   - Tool schema: **inline** → paste the contents of [`tools/tool_schemas.json`](../tools/tool_schemas.json).
    - Outbound Auth configurations: **IAM Role**
    - Click **Next**.
 6. **Review and create** → **Create gateway**.
    The gateway is created, but the target fails with *"Gateway execution role lacks permission to invoke Lambda function"*. This is expected; the next two steps fix it.
 7. Allow the gateway to call the Lambda:
    - Open the gateway → **Edit** → under **Permissions**, click **View role details in IAM** → **Add permissions** → **Create inline policy** → **JSON**.
-   - Delete the example content and paste the contents of [`tools/gateway_policy.json`](tools/gateway_policy.json).
+   - Delete the example content and paste the contents of [`tools/gateway_policy.json`](../tools/gateway_policy.json).
    - **Next** → name it `invoke-spend-tools` → **Create policy**.
 8. Back in the gateway: **Targets** → **Add target** → fill it in exactly as in step 5 → **Add target**.
 
@@ -138,13 +138,13 @@ The agent is an AgentCore **harness**: you choose the model, instructions, tools
 2. Name it `spend_agent` → **Create**.
 3. Open the harness → **Edit**:
    - **Model:** **Claude Haiku 4.5**
-   - **System prompt:** paste the contents of [`agent/system_prompt.md`](agent/system_prompt.md).
+   - **System prompt:** paste the contents of [`agent/system_prompt.md`](../agent/system_prompt.md).
    - **Tools:** enable **Gateway** → select `spend-agent-gateway`.
    - **Memory:** leave it enabled.
    - **Save**.
 4. Allow the agent to use the gateway:
    - In **Harness details**, click the **IAM role** (opens IAM) → **Add permissions** → **Create inline policy** → **JSON**.
-   - Delete the example content and paste the contents of [`agent/harness_policy.json`](agent/harness_policy.json).
+   - Delete the example content and paste the contents of [`agent/harness_policy.json`](../agent/harness_policy.json).
    - **Next** → name it `invoke-spend-gateway` → **Create policy**.
 
 ## Step 8 — Chat with the agent
@@ -158,4 +158,71 @@ The agent is an AgentCore **harness**: you choose the model, instructions, tools
 | *Which department's spend grew the most last quarter?* | Marketing, about +49%, driven by advertising |
 | *Is any department over budget in Q3 2026?* | Sales, about 24% over, driven by travel |
 | *What's driving our AWS costs?* | Costs up about 59%: new untagged GPU instances (g5.12xlarge) in the data-platform account, plus a NAT Gateway spike in August |
-| *Create a PDF report of these findings.* | A download link to the PDF |
+| *Create a PDF report of these findings.* | A download link to a PDF with a summary, a table of the key numbers and a bar chart |
+
+Finished early? Try these bonus questions (full answers in [`data/answer_key.md`](../data/answer_key.md)):
+
+| Question | The agent should find |
+|---|---|
+| *Which vendors drove marketing's increase?* | Advertising moved from AdReach (nothing in Q3) to SocialBoost and SearchAds Pro, about +268k USD net |
+| *How much did our Bedrock costs grow last quarter?* | About doubled from Q2 to Q3 (+104%), all in the data-platform account |
+| *How much of our AWS spend was untagged last quarter?* | About 31.6k USD in Q3 2026 (22%), all from the new GPU instances; nothing before July |
+| *Has any department ever gone over budget?* | Only sales, in Q3 2026 |
+| *How does Q3 2026 compare with the same quarter last year?* | Department spend up about 30%, led by marketing (+61%, advertising) and sales (+47%, travel) |
+
+## Step 9 (optional) — Let people sign in with their own account
+
+In the playground, anyone can type any Actor ID and see that person's memories. In this step you add a chat page where people sign in with **Amazon Cognito**. The page's Lambda takes the user from the sign-in and sets the Actor ID itself, so each person only sees their own memory. The playground keeps working as before.
+
+### Create the user pool
+
+1. Open **Amazon Cognito** → **User pools** → **Create user pool**.
+2. **Application type:** **Single-page application (SPA)**. Name it `spend-agent-chat`.
+3. **Options for sign-in identifiers:** **Username**. Leave **self-registration** off, so only you can add users. Leave the return URL empty.
+4. Click **Create user directory**, then go to the new user pool.
+5. Allow sign-in with a username and password:
+   - **App clients** (left menu) → `spend-agent-chat` → **Edit**.
+   - Under **Authentication flows**, also select **ALLOW_USER_PASSWORD_AUTH** → **Save changes**.
+6. Note two IDs: the **User pool ID** (on the user pool's **Overview**, like `eu-west-1_AbCdEf123`) and the **Client ID** (under **App clients**).
+
+### Add users
+
+1. **Users** (left menu) → **Create user**.
+2. **User name:** for example `anna`. Under **Temporary password**, choose **Set a password** and enter one (at least 8 characters, with upper and lower case letters, a number and a symbol).
+3. **Create user**. Repeat for each person. Each person chooses their own password the first time they sign in.
+
+### Create the chat page
+
+1. Copy the harness ARN: open the harness `spend_agent` and copy its **ARN** from **Harness details**.
+2. Open **Lambda** → **Create function** → **Author from scratch**. Name it `spend-agent-chat`, choose runtime **Node.js 24.x** → **Create function**.
+   This function uses Node.js instead of Python because it streams the agent's work to the page as it happens, and Lambda only streams responses on Node.js.
+3. In the **Code** tab, replace everything in `index.mjs` with the contents of [`chat/index.mjs`](../chat/index.mjs) → **Deploy**.
+4. **Configuration** → **General configuration** → **Edit** → set **Timeout** to **5 min** → **Save**.
+5. **Configuration** → **Environment variables** → **Edit** → add three variables → **Save**:
+
+   | Key | Value |
+   |---|---|
+   | `HARNESS_ARN` | the harness ARN from step 1 |
+   | `USER_POOL_ID` | the User pool ID |
+   | `CLIENT_ID` | the Client ID |
+
+6. Allow the function to call the agent and read past chats:
+   - **Configuration** → **Permissions** → click the role name → **Add permissions** → **Create inline policy** → **JSON**.
+   - Delete the example content and paste the contents of [`chat/lambda_policy.json`](../chat/lambda_policy.json). It lets the function call the agent, and read the chats kept in the agent's memory for the **History** button. The function only ever reads the chats of the person who is signed in.
+   - **Next** → name it `spend-agent-chat` → **Create policy**.
+7. Give the function a web address:
+   - **Configuration** → **Function URL** → **Create function URL**.
+   - **Auth type:** **NONE**. The page is public, but every message needs a valid sign-in.
+   - Open **Additional settings** and set **Invoke mode** to **RESPONSE_STREAM**, so the page can show the agent's work live → **Save**.
+   - Copy the **Function URL**.
+
+### Try it
+
+1. Open the Function URL in your browser and sign in as `anna` with the temporary password. Choose a new password when asked.
+2. Click one of the example questions and watch the agent work: each query appears as it runs, then shows how many rows it returned or why it failed, and the answer is written out at the end. When it's done, the steps fold into one line such as *Worked for 18s, 3 queries (1 failed)*. Click that line, and then a query, to see its SQL.
+3. Ask: *Please remember that I'm the head of the sales department.*
+4. Wait a minute (memory is saved in the background), click **New chat** and ask: *Which department do I lead?*
+5. Click **History**. Your earlier chats are listed with their first question. Open the first one: it shows the questions, answers and steps as before, and you can keep asking in it.
+6. **Sign out**, sign in as another user, ask the same question as in step 4, and open **History**.
+
+✅ The agent answers "sales" for `anna` and says it doesn't know for the other user, and each user's History shows only their own chats.
