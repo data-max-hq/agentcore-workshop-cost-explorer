@@ -37,6 +37,22 @@ User → chat page with Cognito sign-in → chat Lambda → Harness
 | `chat/index.mjs` | Chat page with sign-in, a live view of the agent's work, and chat history | Step 9 |
 | `chat/lambda_policy.json` | Lets the chat Lambda call the agent and read past chats | Step 9 |
 | `eval/` | Answer quality test against the answer key, with its own [README](eval/README.md) (not a workshop step) | Maintainers |
+| `scripts/setup_cloudshell.sh` | Builds guide Steps 2–9 with the AWS CLI in one go (not a workshop step) | Instructors, maintainers |
+
+## Building everything with a script
+
+`scripts/setup_cloudshell.sh` does guide Steps 2–9 with the AWS CLI, for example to prepare an instructor's account or to check an attendee's setup. You can run it again: it reuses what exists, including resources made in the console, and brings the code, policies, prompt and model up to date with this repo. It never deletes anything.
+
+1. On your computer, zip the repo: `zip -r spend-agent.zip . -x '.git/*' '*.dmg' '*.DS_Store'`
+2. Open AWS CloudShell in the workshop region → **Actions** → **Upload file** → choose `spend-agent.zip`.
+3. Run:
+
+   ```
+   unzip -q spend-agent.zip -d spend-agent && cd spend-agent
+   bash scripts/setup_cloudshell.sh
+   ```
+
+The agent's model defaults to OpenAI GPT-5.5 (`us.openai.gpt-5.5`), because workshop accounts can't subscribe to Claude through AWS Marketplace. The settings are listed at the top of the script, for example `MODEL_ID`, `CHAT_USERS="anna ben carla"` or `SKIP_CHAT=1`.
 
 ## Testing answer quality
 
