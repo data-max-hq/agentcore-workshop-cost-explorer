@@ -9,7 +9,7 @@
         "bedrock-agentcore:InvokeAgentRuntime",
         "bedrock-agentcore:GetHarness"
       ],
-      "Resource": "arn:aws:bedrock-agentcore:eu-west-1:*:harness/spend_agent-*"
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:*:harness/spend_agent-*"
     },
     {
       "Sid": "ReadChatHistory",
@@ -18,7 +18,7 @@
         "bedrock-agentcore:ListSessions",
         "bedrock-agentcore:ListEvents"
       ],
-      "Resource": "arn:aws:bedrock-agentcore:eu-west-1:*:memory/spend_agent-*"
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:*:memory/spend_agent-*"
     }
   ]
 }

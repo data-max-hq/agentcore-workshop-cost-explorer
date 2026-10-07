@@ -7,7 +7,7 @@ The company's spend data (department invoices, budgets and AWS costs) is stored 
 ## Step 1 — Open your AWS account
 
 1. Sign in to the [AWS Console](https://console.aws.amazon.com/) with the provided credentials.
-2. Set the region (top right) to **Europe (Ireland) eu-west-1**.
+2. Set the region (top right) to **Europe (Ireland) us-east-1**.
 
 ## Step 2 — Create a bucket
 
@@ -137,7 +137,7 @@ The agent is an AgentCore **harness**: you choose the model, instructions, tools
 1. Open **Amazon Bedrock AgentCore** → **Harness** (left menu) → **Quick create harness**.
 2. Name it `spend_agent` → **Create**.
 3. Open the harness → **Edit**:
-   - **Model:** **Claude Haiku 4.5**
+   - **Model:** **GPT-5.5**
    - **System prompt:** paste the contents of [`agent/system_prompt.md`](../agent/system_prompt.md).
    - **Tools:** enable **Gateway** → select `spend-agent-gateway`.
    - **Memory:** leave it enabled.
@@ -150,8 +150,7 @@ The agent is an AgentCore **harness**: you choose the model, instructions, tools
 ## Step 8 — Chat with the agent
 
 1. Open the harness → **Test Harness** (opens the playground).
-2. Under **Memory**, set **Actor ID** to your name (e.g. `anna`). Each user's conversations and memories are stored under their own Actor ID.
-3. Ask these questions one at a time:
+2. Ask these questions one at a time:
 
 | Question | The agent should find |
 |---|---|
@@ -178,12 +177,12 @@ In the playground, anyone can type any Actor ID and see that person's memories. 
 
 1. Open **Amazon Cognito** → **User pools** → **Create user pool**.
 2. **Application type:** **Single-page application (SPA)**. Name it `spend-agent-chat`.
-3. **Options for sign-in identifiers:** **Username**. Leave **self-registration** off, so only you can add users. Leave the return URL empty.
+3. **Options for sign-in identifiers:** **Username**. Leave **self-registration** off, so only you can add users. Under **Required attributes for sign-up**, make sure nothing is selected (clear **email** if it is preselected). The chat page only asks for a password, so with required attributes the first sign-in fails with *Invalid attributes given, name is missing*, and they can't be removed later. Leave the return URL empty. Set *Required attributes for sign-up* to **email** and **name**.
 4. Click **Create user directory**, then go to the new user pool.
 5. Allow sign-in with a username and password:
    - **App clients** (left menu) → `spend-agent-chat` → **Edit**.
    - Under **Authentication flows**, also select **ALLOW_USER_PASSWORD_AUTH** → **Save changes**.
-6. Note two IDs: the **User pool ID** (on the user pool's **Overview**, like `eu-west-1_AbCdEf123`) and the **Client ID** (under **App clients**).
+6. Note two IDs: the **User pool ID** (on the user pool's **Overview**, like `us-east-1_AbCdEf123`) and the **Client ID** (under **App clients**).
 
 ### Add users
 

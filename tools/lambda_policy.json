@@ -11,7 +11,7 @@
         "athena:StopQueryExecution",
         "athena:GetWorkGroup"
       ],
-      "Resource": "arn:aws:athena:eu-west-1:*:workgroup/spend-agent"
+      "Resource": "arn:aws:athena:us-east-1:*:workgroup/spend-agent"
     },
     {
       "Sid": "ReadTableDefinitions",
@@ -23,9 +23,9 @@
         "glue:GetPartitions"
       ],
       "Resource": [
-        "arn:aws:glue:eu-west-1:*:catalog",
-        "arn:aws:glue:eu-west-1:*:database/spend",
-        "arn:aws:glue:eu-west-1:*:table/spend/*"
+        "arn:aws:glue:us-east-1:*:catalog",
+        "arn:aws:glue:us-east-1:*:database/spend",
+        "arn:aws:glue:us-east-1:*:table/spend/*"
       ]
     },
     {

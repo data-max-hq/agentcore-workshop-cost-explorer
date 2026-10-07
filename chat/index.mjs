@@ -4,7 +4,7 @@
  * Paste this file into the Lambda console editor as index.mjs (runtime Node.js 24.x) and add a function
  * URL with auth type NONE and invoke mode RESPONSE_STREAM. Needs three environment variables:
  *   HARNESS_ARN  - ARN of the spend_agent harness (Step 7)
- *   USER_POOL_ID - ID of the Cognito user pool, e.g. eu-west-1_AbCdEf123 (Step 9)
+ *   USER_POOL_ID - ID of the Cognito user pool, e.g. us-east-1_AbCdEf123 (Step 9)
  *   CLIENT_ID    - ID of the user pool's app client (Step 9)
  *
  * GET  /      returns the chat page, where people sign in with their Cognito username and password.
@@ -21,7 +21,7 @@ import { BedrockAgentCoreControlClient, GetHarnessCommand } from "@aws-sdk/clien
 import { CognitoIdentityProviderClient, GetUserCommand } from "@aws-sdk/client-cognito-identity-provider";
 
 const { HARNESS_ARN, USER_POOL_ID, CLIENT_ID } = process.env;
-const REGION = process.env.AWS_REGION || "eu-west-1";
+const REGION = process.env.AWS_REGION || "us-east-1";
 const ISSUER = `https://cognito-idp.${REGION}.amazonaws.com/${USER_POOL_ID}`;
 const MAX_MESSAGE = 4000;
 const MAX_CHATS = 20;  // how many past chats the History list shows

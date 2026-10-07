@@ -16,7 +16,7 @@ from botocore.config import Config
 BUCKET = os.environ["BUCKET"]
 DATABASE = os.environ.get("DATABASE", "spend")
 WORKGROUP = os.environ.get("WORKGROUP", "spend-agent")
-REGION = os.environ.get("AWS_REGION", "eu-west-1")
+REGION = os.environ.get("AWS_REGION", "us-east-1")
 MAX_ROWS = 200
 
 athena = boto3.client("athena")

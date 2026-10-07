@@ -5,7 +5,7 @@
 ## What you need
 
 - Python 3.9 or newer with boto3 1.42 or newer (`pip install --upgrade boto3`). AWS CloudShell works too.
-- Credentials for the workshop account, for example `export AWS_PROFILE=<your profile>`. The region defaults to eu-west-1.
+- Credentials for the workshop account, for example `export AWS_PROFILE=<your profile>`. The region defaults to us-east-1.
 
 ## Run it
 

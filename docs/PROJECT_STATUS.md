@@ -2,8 +2,8 @@
 
 A quick overview of what is done and what is left. The step-by-step setup instructions are in [`SETUP_GUIDE.md`](SETUP_GUIDE.md).
 
-> ⚠️ **Region: everything is built for Europe (Ireland) `eu-west-1`.**
-> The setup guide and all policies in this repo (`tools/lambda_policy.json`, `tools/gateway_policy.json`, `agent/harness_policy.json`, `chat/lambda_policy.json`) use `eu-west-1`. Make sure the AWS Console is set to this region whenever you work on the project.
+> ⚠️ **Region: everything is built for Europe (Ireland) `us-east-1`.**
+> The setup guide and all policies in this repo (`tools/lambda_policy.json`, `tools/gateway_policy.json`, `agent/harness_policy.json`, `chat/lambda_policy.json`) use `us-east-1`. Make sure the AWS Console is set to this region whenever you work on the project.
 
 ## Goal
 

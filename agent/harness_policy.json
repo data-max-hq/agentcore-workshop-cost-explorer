@@ -5,7 +5,7 @@
       "Sid": "InvokeSpendAgentGateway",
       "Effect": "Allow",
       "Action": "bedrock-agentcore:InvokeGateway",
-      "Resource": "arn:aws:bedrock-agentcore:eu-west-1:*:gateway/spend-agent-gateway-*"
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:*:gateway/spend-agent-gateway-*"
     }
   ]
 }

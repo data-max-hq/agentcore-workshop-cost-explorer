@@ -132,7 +132,7 @@ def run(client, harness_arn, variant, prompt, workers, memory_wait):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--prompt", choices=["current", "repo", "both"], default="current")
-    parser.add_argument("--region", default="eu-west-1")
+    parser.add_argument("--region", default="us-east-1")
     parser.add_argument("--harness", default="spend_agent", help="harness name (default: spend_agent)")
     parser.add_argument("--workers", type=int, default=7, help="conversations to run at the same time")
     parser.add_argument("--memory", type=int, nargs="?", const=90, default=0, metavar="SECONDS",
