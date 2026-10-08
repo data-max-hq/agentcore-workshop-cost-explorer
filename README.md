@@ -1,6 +1,6 @@
 # Spend Analysis Agent — AgentCore Workshop
 
-In this workshop, people build an AI agent on **Amazon Bedrock AgentCore** that answers plain-language questions about a company's spending, such as *"Which department's spend grew the most last quarter?"* or *"What's driving our AWS costs?"*. The spend data (department invoices, budgets and an AWS cost export) is stored in S3. The agent queries it with tools, explains what it finds, and creates PDF reports with tables and charts.
+In this workshop, we will build an AI agent on **Amazon Bedrock AgentCore** that answers plain-language questions about a company's spending, such as *"Which department's spend grew the most last quarter?"* or *"What's driving our AWS costs?"*. The spend data (department invoices, budgets and an AWS cost export) is stored in S3. The agent queries it with tools, explains what it finds, and creates PDF reports with tables and charts.
 
 Everything is set up by hand in the AWS Console, with no coding, on an empty AWS account in **US East (N. Virginia) us-east-1**. The code and policies in this repo are pasted into the console as they are; there is no build step.
 
