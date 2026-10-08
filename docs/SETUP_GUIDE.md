@@ -31,7 +31,7 @@ The company's spend data (department invoices, budgets and AWS costs) is stored 
 2. Name it `spend` → **Create database**.
 3. Open **Athena** → **Query editor** (left menu), select the workgroup **spend-agent** (top right) and the database **spend** (left panel).
 4. Run the three queries below one at a time (paste → **Run**).
-   Replace `BUCKET_NAME` with your bucket name from Step 2.
+   ⚠️ In each query, replace `BUCKET_NAME` with your bucket name from Step 2.
 
 ```sql
 CREATE EXTERNAL TABLE spend.department_spend (
