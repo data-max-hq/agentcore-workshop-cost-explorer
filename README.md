@@ -25,6 +25,7 @@ User → chat page with Cognito sign-in → chat Lambda → Harness
 | Path | What | Used in |
 |---|---|---|
 | `docs/SETUP_GUIDE.md` | Step-by-step console setup | Attendees |
+| `docs/CLI_GUIDE.md` | The same steps as AWS CLI commands to paste into CloudShell, one step at a time | Instructors, maintainers |
 | `data/spend-data/` | CSV data, one folder per table, uploaded to S3 as it is | Steps 2–4 |
 | `data/answer_key.md` | Correct answers for the test questions | Step 8, instructors |
 | `tools/lambda_function.py` | Lambda code for the agent's three tools: list the tables, run a SQL query, create a PDF report | Step 5 |
