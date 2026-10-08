@@ -110,7 +110,7 @@ The Gateway makes the Lambda's tools available to the agent.
    - **Permissions:** **Create default role**
    - Click **Next**.
 4. **Configure Inbound Identity:**
-   - Choose **AWS IAM**.
+   - Choose **Use IAM Permissions**.
    - Click **Next**.
 5. **Add targets:**
    - Target protocol: **MCP target**
@@ -139,8 +139,8 @@ The agent is an AgentCore **harness**: you choose the model, instructions, tools
 3. Open the harness → **Edit**:
    - **Model:** **GPT-5.5**
    - **System prompt:** paste the contents of [`agent/system_prompt.md`](../agent/system_prompt.md).
-   - **Tools:** enable **Gateway** → select `spend-agent-gateway`.
-   - **Memory:** leave it enabled.
+   - **Tools:** Enable **Gateway** → select `spend-agent-gateway`.
+   - **Memory:** Enable.
    - **Save**.
 4. Allow the agent to use the gateway:
    - In **Harness details**, click the **IAM role** (opens IAM) → **Add permissions** → **Create inline policy** → **JSON**.
@@ -148,6 +148,7 @@ The agent is an AgentCore **harness**: you choose the model, instructions, tools
    - **Next** → name it `invoke-spend-gateway` → **Create policy**.
 
 ## Step 8 — Chat with the agent
+We can now test the agent before moving on with the agent chat UI creation.
 
 1. Open the harness → **Test Harness** (opens the playground).
 2. Ask these questions one at a time:
