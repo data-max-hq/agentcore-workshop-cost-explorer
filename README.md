@@ -18,7 +18,6 @@ User → chat page with Cognito sign-in → chat Lambda → Harness
 | You are | Read |
 |---|---|
 | A workshop attendee | [`docs/SETUP_GUIDE.md`](docs/SETUP_GUIDE.md): Steps 1–8, and Step 9 for the optional chat page |
-| An instructor or maintainer | [`data/answer_key.md`](data/answer_key.md) for the correct answers, and `eval/run_eval.py` to test the agent |
 
 ## Repository
 
@@ -36,8 +35,8 @@ User → chat page with Cognito sign-in → chat Lambda → Harness
 | `agent/harness_policy.json` | Lets the harness call the gateway | Step 7 |
 | `chat/index.mjs` | Chat page with sign-in, a live view of the agent's work, and chat history | Step 9 |
 | `chat/lambda_policy.json` | Lets the chat Lambda call the agent and read past chats | Step 9 |
-| `eval/` | Answer quality test against the answer key, with its own [README](eval/README.md) (not a workshop step) | Maintainers |
 | `scripts/setup_cloudshell.sh` | Builds guide Steps 2–9 with the AWS CLI in one go (not a workshop step) | Instructors, maintainers |
+| `scripts/teardown_cloudshell.sh` | Deletes everything the setup creates, with its data | Instructors, maintainers |
 
 ## Building everything with a script
 
@@ -52,13 +51,6 @@ User → chat page with Cognito sign-in → chat Lambda → Harness
    bash scripts/setup_cloudshell.sh
    ```
 
+To delete it all again, including the data and the chat users: `bash scripts/teardown_cloudshell.sh`. It asks first, and keeps an IAM role when something else still uses it.
+
 The agent's model defaults to OpenAI GPT-5.5 (`us.openai.gpt-5.5`), because workshop accounts can't subscribe to Claude through AWS Marketplace. The settings are listed at the top of the script, for example `MODEL_ID`, `CHAT_USERS="anna ben carla"` or `SKIP_CHAT=1`.
-
-## Testing answer quality
-
-`eval/run_eval.py` asks the agent the test questions from the guide and checks its answers against the answer key. See [`eval/README.md`](eval/README.md) for the details. Run it on your computer or in AWS CloudShell, with credentials for the workshop account and boto3 1.42 or newer:
-
-```
-python3 eval/run_eval.py --memory          # the agent as it is deployed
-python3 eval/run_eval.py --prompt both     # also try agent/system_prompt.md without deploying it
-```
