@@ -7,7 +7,7 @@ The company's spend data (department invoices, budgets and AWS costs) is stored 
 ## Step 1 — Open your AWS account
 
 1. Sign in to the [AWS Console](https://console.aws.amazon.com/) with the provided credentials.
-2. Set the region (top right) to **Europe (Ireland) us-east-1**.
+2. Set the region (top right) to **US East (N. Virginia) us-east-1**.
 
 ## Step 2 — Create a bucket
 
@@ -176,8 +176,8 @@ In the playground, anyone can type any Actor ID and see that person's memories. 
 ### Create the user pool
 
 1. Open **Amazon Cognito** → **User pools** → **Create user pool**.
-2. **Application type:** **Single-page application (SPA)**. Name it `spend-agent-chat`.
-3. **Options for sign-in identifiers:** **Username**. Leave **self-registration** off, so only you can add users. Under **Required attributes for sign-up**, make sure nothing is selected (clear **email** if it is preselected). The chat page only asks for a password, so with required attributes the first sign-in fails with *Invalid attributes given, name is missing*, and they can't be removed later. Leave the return URL empty. Set *Required attributes for sign-up* to **email** and **name**.
+2. **Application type:** **Single-page application (SPA)**. **Name your application:** `spend-agent-chat` (this names the app client; the user pool gets an automatic name).
+3. **Options for sign-in identifiers:** **Username**. Leave **self-registration** off, so only you can add users. Under **Required attributes for sign-up**, make sure nothing is selected (clear **email** if it is preselected). The chat page only asks for a password, so with required attributes the first sign-in fails with *Invalid attributes given, name is missing*, and they can't be removed later. Leave the return URL empty.
 4. Click **Create user directory**, then go to the new user pool.
 5. Allow sign-in with a username and password:
    - **App clients** (left menu) → `spend-agent-chat` → **Edit**.
@@ -187,7 +187,7 @@ In the playground, anyone can type any Actor ID and see that person's memories. 
 ### Add users
 
 1. **Users** (left menu) → **Create user**.
-2. **User name:** for example `anna`. Under **Temporary password**, choose **Set a password** and enter one (at least 8 characters, with upper and lower case letters, a number and a symbol).
+2. **Invitation message:** **Don't send an invitation**. **User name:** for example `anna`. Under **Temporary password**, choose **Set a password** and enter one (at least 8 characters, with upper and lower case letters, a number and a symbol).
 3. **Create user**. Repeat for each person. Each person chooses their own password the first time they sign in.
 
 ### Create the chat page
